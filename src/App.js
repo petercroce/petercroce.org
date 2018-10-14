@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import pSign from './pc-sign.svg';
 import tuscany from './imgs/tuscany.jpg';
+import italianPassport from './imgs/italian-passport.jpg';
+import umbn from './imgs/umbn.png';
+import wbwnyc from './imgs/wbwnyc.jpg';
 import './App.css';
+import './normalize.css';
 
 class App extends Component {
   render() {
@@ -26,7 +30,13 @@ class App extends Component {
           <div className="section">
             <h1>Peter Croce</h1>
             <div className="text-section">
-              <p>I am a product manager, currently working with the good people at <a href="https://postlight.com" target="_blank" rel="noopener noreferrer nofollow">Postlight</a> in New York City. Before that I worked as a product manager for the design-first digital studio, <a href="https://www.ny-ave.com/" target="_blank" rel="noopener noreferrer nofollow">New York Ave</a>. During that time I have also worked part time as a facilitator of design sprint workshops for <a href="http://thedali.org/programs/innovation-labs/" target="_blank" rel="noopener noreferrer nofollow">The Dali Museum Innovation Labs</a> in St. Petersburg, Florida.</p>
+              <p>I am a curious, friendly, adventurous person who likes to make things.
+                I work as a product manager, currently with the good people at <a
+                  href="https://postlight.com" target="_blank" rel="noopener noreferrer nofollow"
+                  >Postlight</a> in New York City, and formerly with the design-first digital studio, <a
+                  href="https://www.ny-ave.com/" target="_blank" rel="noopener noreferrer nofollow"
+                  >New York Ave</a>.
+               </p>
             </div>
           </div>
           <div className="section">
@@ -34,12 +44,27 @@ class App extends Component {
             <div className="card-list">
               <div className="card">
                 <h3>Italian Citizenship Guide</h3>
-                <p>Descendents of Italian citizens can obtain Italian citizenship. It took me four years. I made a guide to make it easier for others.</p>
-                <a href="https://italiancitizenshipguide.com" target="_blank" rel="noopener noreferrer nofollow">Italian Citizenship Guide</a>
+                <img src={italianPassport} alt="My Italian passport"/>
+                <p>Descendents of Italian citizens can get dual EU citizenship. It took me four years and thousands of hours of research to navigate the system and get my passport so I made a step-by-step guide to make it easier for others.</p>
+                <div>
+                  <a href="https://italiancitizenshipguide.com" target="_blank" rel="noopener noreferrer nofollow">Italian Citizenship Guide</a>
+                </div>
               </div>
               <div className="card">
                 <h3>Wait But Why NYC</h3>
+                <img src={wbwnyc} alt="Wait But Why NYC cover art"/>
                 <p>Some friends and I had great conversations when we read Wait But Why articles and talked about them. We made a Meetup to dive deep on similar topics. Join us!</p>
+                <div>
+                  <a href="http://waitbutwhy.nyc" target="_blank" rel="noopener noreferrer nofollow">Wait But Why NYC</a>
+                </div>
+              </div>
+              <div className="card">
+                <h3>UMBN</h3>
+                <img src={umbn} alt="People laugh during a workshop facilitated by UMBN"/>
+                <p>After working together as facilitators at <a href="http://thedali.org/programs/innovation-labs/" target="_blank" rel="noopener noreferrer nofollow">The Dali Museum Innovation Lab</a> in St. Petersburg, Florida, Annemarie Boss and I started a creative problem solving facilitation consultancy. She's much better at facilitating than I am.</p>
+                <div>
+                  <a href="https://umbn.co" target="_blank" rel="noopener noreferrer nofollow">UMBN's website</a>
+                </div>
               </div>
               {/* <div className="card">
                 <p>Digital products for connecting, communicating, and solving big problems.</p>
@@ -54,12 +79,12 @@ class App extends Component {
           </div>
           <div className="section">
             <h2>Adventures</h2>
-            <div className="card-list">
+            <div className="card-list-slider">
               <div className="card">
-                <iframe src="https://www.youtube.com/embed/C-OcMKMY23I?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/C-OcMKMY23I?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen title="Teleporting around Scotland and Wales with a GoPro"></iframe>
               </div>
               <div className="card">
-                <iframe src="https://www.youtube.com/embed/UCwNYGvzR5E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/UCwNYGvzR5E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen title="Six weeks living and working on a sailboat"></iframe>
               </div>
               <div className="card">
                 <img src={tuscany} alt="Viviano and Peter riding in Viviano's car in Tuscany" className="tuscany"/>
