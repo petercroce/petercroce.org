@@ -28,9 +28,9 @@ class App extends Component {
         </header>
         <body>
           <div className="section">
-            <h1>Peter Croce</h1>
+            <h1>Peter Croce makes things</h1>
             <div className="text-section">
-              <p>I am a curious, friendly, adventurous person who likes to make things.
+              <p>Hello. I am a curious, friendly, adventurous person who likes to make things.
                 I work as a product manager, currently with the good people at <a
                   href="https://postlight.com" target="_blank" rel="noopener noreferrer nofollow"
                   >Postlight</a> in New York City, and formerly with the design-first digital studio, <a
@@ -40,30 +40,44 @@ class App extends Component {
             </div>
           </div>
           <div className="section">
-            <h2>Projects</h2>
+            <h2 className="no-margin-bottom">Some of those things are listed here</h2>
             <div className="card-list">
               <div className="card">
                 <h3>Italian Citizenship Guide</h3>
                 <img src={italianPassport} alt="My Italian passport"/>
-                <p>Descendents of Italian citizens can get dual EU citizenship. It took me four years and thousands of hours of research to navigate the system and get my passport so I made a step-by-step guide to make it easier for others.</p>
+                <p>Descendents of Italian citizens can get dual EU citizenship.
+                  It took me four years and thousands of hours of research to
+                  navigate the system and get my passport so I made a step-by-step
+                  guide to make it easier for others.</p>
                 <div>
-                  <a href="https://italiancitizenshipguide.com" target="_blank" rel="noopener noreferrer nofollow">Italian Citizenship Guide</a>
+                  <a href="https://italiancitizenshipguide.com" target="_blank" rel="noopener noreferrer nofollow"
+                  >Italian Citizenship Guide</a>
                 </div>
               </div>
               <div className="card">
                 <h3>Wait But Why NYC</h3>
                 <img src={wbwnyc} alt="Wait But Why NYC cover art"/>
-                <p>Some friends and I had great conversations when we read Wait But Why articles and talked about them. We made a Meetup to dive deep on similar topics. Join us!</p>
+                <p>After some friends and I started reading <a
+                  href="https://waitbutwhy.com" target="_blank" rel="noopener noreferrer nofollow"
+                  >Wait But Why</a> articles and talking about them we wanted to
+                  do it with more people too. We made a Meetup to discuss and
+                  hear presentations on similar topics. Join us!</p>
                 <div>
-                  <a href="http://waitbutwhy.nyc" target="_blank" rel="noopener noreferrer nofollow">Wait But Why NYC</a>
+                  <a href="http://waitbutwhy.nyc" target="_blank" rel="noopener noreferrer nofollow"
+                  >Wait But Why NYC</a>
                 </div>
               </div>
               <div className="card">
                 <h3>UMBN</h3>
                 <img src={umbn} alt="People laugh during a workshop facilitated by UMBN"/>
-                <p>After working together as facilitators at <a href="http://thedali.org/programs/innovation-labs/" target="_blank" rel="noopener noreferrer nofollow">The Dali Museum Innovation Lab</a> in St. Petersburg, Florida, Annemarie Boss and I started a creative problem solving facilitation consultancy. She's much better at facilitating than I am.</p>
+                <p>After working together as facilitators at <a
+                  href="http://thedali.org/programs/innovation-labs/" target="_blank" rel="noopener noreferrer nofollow"
+                  >The Dali Museum Innovation Lab</a> in St. Petersburg, Florida,
+                  Annemarie Boss and I started a creative problem solving facilitation
+                  consultancy. She's very good at it.</p>
                 <div>
-                  <a href="https://umbn.co" target="_blank" rel="noopener noreferrer nofollow">UMBN's website</a>
+                  <a href="https://umbn.co" target="_blank" rel="noopener noreferrer nofollow"
+                  >UMBN's website</a>
                 </div>
               </div>
               {/* <div className="card">

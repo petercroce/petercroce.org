@@ -20,7 +20,7 @@ h1, h2, h3 {
   font-weight: bold;
   font-family: 'Rubik', sans-serif;
 }
-h2 {
+.no-margin-bottom {
   margin-bottom: 0;
 }
 .App-header {
@@ -44,24 +44,23 @@ body {
   background-color: var(--background-color);
   flex: 1;
   font-family: 'Rubik', sans-serif;
-  line-height: 1.5;
+  line-height: 1.75;
 }
 a,
 a:visited {
   color: var(--lightGray);
   text-decoration: none;
-
   fill: inherit;
-  background-image: linear-gradient(180deg,transparent 90%, var(--primary) 0);
+  background-image: linear-gradient(180deg,transparent 98%, var(--primary) 0);
   background-size: 0 100%;
   background-repeat: no-repeat;
-  transition: all 0.25s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 a:hover,
 a:active {
   color: inherit;
 
-  background-image: linear-gradient(180deg,transparent 90%, var(--primary) 0);
+  background-image: linear-gradient(180deg,transparent 98%, var(--primary) 0);
   background-size: 100% 100%;
 }
 .card-list {
@@ -98,7 +97,6 @@ a:active {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  margin-bottom: 20px;
   min-height: 160px;
   max-height: 180px;
   border: 3px solid var(--primary);
@@ -118,7 +116,7 @@ a:active {
   height: 100%;
   object-fit: cover;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   min-height: 250px;
   max-height: 275px;
 }
