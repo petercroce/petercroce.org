@@ -28,10 +28,13 @@ class App extends Component {
         </header>
         <body>
           <div className="section">
-            <h1>Peter Croce</h1>
+            <div className="welcome-section">
+              <h1>Hello! I'm Peter Croce. </h1>
+              <p>I'm a curious person, tinkerer, product manager, cultural enthusiast, and lover of the outdoors.</p>
+            </div>
           </div>
           <div className="section">
-            <h2 className="no-margin-bottom">Some of those things are listed here</h2>
+            <h2 className="no-margin-bottom">Projects</h2>
             <div className="card-list">
               <div className="card">
                 <h3>Italian Citizenship Guide</h3>
