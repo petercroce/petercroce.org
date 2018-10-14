@@ -4,7 +4,9 @@
   --lightGray: #7d7d7d;
   --backgroundColor: #f7f7f7;
 }
-
+* {
+  box-sizing: border-box;
+}
 #root {
   min-width: 100%;
   overflow: hidden;
@@ -13,8 +15,13 @@
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  margin: 0 20px;
+  margin: 0 10px;
   font-family: 'Rubik', sans-serif;
+}
+@media (min-width: 768px) {
+  .App {
+    margin: 0 20px;
+  }
 }
 h1, h2, h3 {
   font-weight: bold;
