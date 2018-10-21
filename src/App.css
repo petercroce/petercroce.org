@@ -94,6 +94,10 @@ a:active {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
+}
+.card:first-of-type {
+  margin-top: 0;
 }
 .card p {
   flex: 1;
@@ -109,6 +113,7 @@ a:active {
   }
   .card {
     width: 32%;
+    margin-top: 0;
   }
   .card img,
   .card iframe {
