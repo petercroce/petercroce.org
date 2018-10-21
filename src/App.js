@@ -30,11 +30,10 @@ class App extends Component {
           <div className="section">
             <div className="welcome-section">
               <h1>Hello! I'm Peter Croce. </h1>
-              <p>I'm a curious person, tinkerer, product manager, cultural enthusiast, and lover of the outdoors.</p>
+              <p>I'm a tinkerer, product manager, cultural enthusiast, and lover of the outdoors.</p>
             </div>
           </div>
           <div className="section">
-            <h2 className="no-margin-bottom">Projects</h2>
             <div className="card-list">
               <div className="card">
                 <h3>Italian Citizenship Guide</h3>
@@ -44,8 +43,9 @@ class App extends Component {
                   navigate the system and get my passport so I made a step-by-step
                   guide to make it easier for others.</p>
                 <div>
-                  <a href="https://italiancitizenshipguide.com" target="_blank" rel="noopener noreferrer nofollow"
-                  >Italian Citizenship Guide</a>
+                  {/* <a href="https://italiancitizenshipguide.com" target="_blank" rel="noopener noreferrer nofollow"
+                  ></a> */}
+                    Italian Citizenship Guide
                 </div>
               </div>
               <div className="card">
@@ -87,19 +87,23 @@ class App extends Component {
           </div>
           <div className="section">
             <h2>Adventures</h2>
-            <div className="card-list-slider">
+            <div className="card-list">
               <div className="card">
                 <iframe src="https://www.youtube.com/embed/C-OcMKMY23I?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen title="Teleporting around Scotland and Wales with a GoPro"></iframe>
+                <p>Mighty craic teleporting around the emerald isle with this lad. Castles, writers, cliffs, sheep, hiking, hitchhiking with famous Scottish climbers, staying in bothies, waking up on the edge of the world.</p>
               </div>
               <div className="card">
                 <iframe src="https://www.youtube.com/embed/UCwNYGvzR5E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen title="Six weeks living and working on a sailboat"></iframe>
+                <p>Sailing Tampa to Key West to Dominican Republic to Puerto Rico, overnight sails taking four hour shifts at the helm in over waters, and musical shenanigans all the while.</p>
               </div>
               <div className="card">
                 <img src={tuscany} alt="Viviano and Peter riding in Viviano's car in Tuscany" className="tuscany"/>
+                <p>Six weeks living and working on a vinyard and olive oil farm in Tuscany, hanging out with baby goats and donkeys, learning Italian, and being interviewed on European television.</p>
               </div>
             </div>
           </div>
         </body>
+      <div className="section">
         <footer>
           <p>
             Peter Croce lives in NYC with his partner, <a
@@ -114,6 +118,7 @@ class App extends Component {
                 >Postlight</a>.
           </p>
         </footer>
+      </div>
       </div>
     );
   }
