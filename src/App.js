@@ -51,11 +51,9 @@ class App extends Component {
               <div className="card">
                 <h3>Wait But Why NYC</h3>
                 <img src={wbwnyc} alt="Wait But Why NYC cover art"/>
-                <p>After some friends and I started reading <a
+                <p>Some friends and I started a discussion group to talk about <a
                   href="https://waitbutwhy.com" target="_blank" rel="noopener noreferrer nofollow"
-                  >Wait But Why</a> articles and talking about them we wanted to
-                  do it with more people too. We made a Meetup to discuss and
-                  hear presentations on similar topics. Join us!</p>
+                  >Wait But Why</a> articles it snowballed into a larger Meetup. We meet every few months to ask each other big questions and think outloud together. Join us.</p>
                 <div>
                   <a href="http://waitbutwhy.nyc" target="_blank" rel="noopener noreferrer nofollow"
                   >Wait But Why NYC</a>
@@ -94,11 +92,11 @@ class App extends Component {
               </div>
               <div className="card">
                 <iframe src="https://www.youtube.com/embed/UCwNYGvzR5E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen title="Six weeks living and working on a sailboat"></iframe>
-                <p>Sailing Tampa to Key West to Dominican Republic to Puerto Rico, overnight sails taking four hour shifts at the helm in over waters, and musical shenanigans all the while.</p>
+                <p>Tales of sailing a 46' catamaran from Tampa to Key West to Dominican Republic to Puerto Rico, week-long open water voyages with four hour shifts at the helm day and night, musical shenanigans, and the best people.</p>
               </div>
               <div className="card">
                 <img src={tuscany} alt="Viviano and Peter riding in Viviano's car in Tuscany" className="tuscany"/>
-                <p>Six weeks living and working on a vinyard and olive oil farm in Tuscany, hanging out with baby goats and donkeys, learning Italian, and being interviewed on European television.</p>
+                <p>Six weeks living and working on a vinyard and olive oil farm in Tuscany, hanging out with baby goats and donkeys, learning Italian, and being interviewed on European television about work-travel and how to do it well.</p>
               </div>
             </div>
           </div>
