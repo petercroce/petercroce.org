@@ -123,11 +123,11 @@ a:active {
 .card img,
 .card iframe {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  min-height: 240px;
-  max-height: 260px;
+  height: 250px;
   border: 3px solid var(--primary);
+}
+.card img {
+  object-fit: cover;
 }
 .card-list-slider {
   display: flex;
