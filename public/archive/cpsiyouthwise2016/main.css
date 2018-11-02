@@ -1,0 +1,62 @@
+body {
+  font-family: helvetica, sans-serif;
+  color: violet;
+  background-color: #80e5ff;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  color: maroon;
+}
+
+.red-box {
+  height: 40px;
+  width: 40px;
+  background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.intro {
+  text-align: center;
+}
+.brand {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  opacity: 0.3;
+}
+.brand h4 {
+  font-size: 10px;
+  font-weight: lighter;
+  letter-spacing: -0.05rem;
+}
+.brand a {
+  text-decoration: none;
+  color: black;
+}
+.brand:hover {
+  -ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: rotate(20deg); /* Safari */
+  transform: rotate(20deg);
+  transition-duration: 0.5s;
+}
