@@ -104,7 +104,7 @@ class App extends Component {
       <div className="section">
         <footer>
           <p>
-            Peter Croce lives in NYC with his partner, <a
+            Peter Croce lives in Brooklyn with his partner, <a
               href="https://erinpeace.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
