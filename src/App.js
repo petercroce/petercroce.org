@@ -37,20 +37,22 @@ class App extends Component {
             <div className="card-list">
               <div className="card">
                 <h3>Italian Citizenship Guide</h3>
-                <img src={italianPassport} alt="My Italian passport"/>
+                <a href="https://italiancitizenshipguide.com" target="_blank" rel="noopener noreferrer nofollow"
+                ><img src={italianPassport} alt="My Italian passport"/></a>
                 <p>Descendents of Italian citizens can get dual EU citizenship.
                   It took me four years and thousands of hours of research to
                   navigate the system and get my passport so I made a step-by-step
                   guide to make it easier for others.</p>
                 <div>
-                  {/* <a href="https://italiancitizenshipguide.com" target="_blank" rel="noopener noreferrer nofollow"
-                  ></a> */}
-                    Italian Citizenship Guide
+                  <a href="https://italiancitizenshipguide.com" target="_blank" rel="noopener noreferrer nofollow"
+                  >Italian Citizenship Guide</a>
+
                 </div>
               </div>
               <div className="card">
                 <h3>Wait But Why NYC</h3>
-                <img src={wbwnyc} alt="Wait But Why NYC cover art"/>
+                <a href="http://waitbutwhy.nyc" target="_blank" rel="noopener noreferrer nofollow"
+                ><img src={wbwnyc} alt="Wait But Why NYC cover art"/></a>
                 <p>Some friends and I started a discussion group to talk about <a
                   href="https://waitbutwhy.com" target="_blank" rel="noopener noreferrer nofollow"
                   >Wait But Why</a> articles and it snowballed into a larger Meetup. We meet every few months to ask each other big questions and think out loud together. Join us.</p>
@@ -61,7 +63,8 @@ class App extends Component {
               </div>
               <div className="card">
                 <h3>UMBN</h3>
-                <img src={umbn} alt="People laugh during a workshop facilitated by UMBN"/>
+                <a href="https://umbn.co" target="_blank" rel="noopener noreferrer nofollow"
+                ><img src={umbn} alt="People laugh during a workshop facilitated by UMBN"/></a>
                 <p>After working together as facilitators at <a
                   href="http://thedali.org/programs/innovation-labs/" target="_blank" rel="noopener noreferrer nofollow"
                   >The Dali Museum Innovation Lab</a> in St. Petersburg, Florida,
