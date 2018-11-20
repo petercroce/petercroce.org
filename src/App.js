@@ -39,10 +39,8 @@ class App extends Component {
                 <h3>Italian Citizenship Guide</h3>
                 <a href="https://italiancitizenshipguide.com" target="_blank" rel="noopener noreferrer nofollow"
                 ><img src={italianPassport} alt="My Italian passport"/></a>
-                <p>Descendents of Italian citizens can get dual EU citizenship.
-                  It took me four years and thousands of hours of research to
-                  navigate the system and get my passport so I made a step-by-step
-                  guide to make it easier for others.</p>
+                <p>Descendents of Italian citizens can get Italian citizenship.
+                  It took me a long time and was not easy to do so I made this guide to make it easier for others. It's a work in progress.</p>
                 <div>
                   <a href="https://italiancitizenshipguide.com" target="_blank" rel="noopener noreferrer nofollow"
                   >Italian Citizenship Guide</a>
@@ -53,9 +51,9 @@ class App extends Component {
                 <h3>Wait But Why NYC</h3>
                 <a href="http://waitbutwhy.nyc" target="_blank" rel="noopener noreferrer nofollow"
                 ><img src={wbwnyc} alt="Wait But Why NYC cover art"/></a>
-                <p>Some friends and I started a discussion group to talk about <a
+                <p>Some friends and I started meeting up to talk about topics covered in <a
                   href="https://waitbutwhy.com" target="_blank" rel="noopener noreferrer nofollow"
-                  >Wait But Why</a> articles and it snowballed into a larger Meetup. We meet every few months to ask each other big questions and think out loud together. Join us.</p>
+                  >Wait But Why</a> articles and it snowballed into a larger Meetup. Now we meet every few months to hear speakers and think out loud together. You are very welcome to join us or refer a speaker.</p>
                 <div>
                   <a href="http://waitbutwhy.nyc" target="_blank" rel="noopener noreferrer nofollow"
                   >Wait But Why NYC</a>
