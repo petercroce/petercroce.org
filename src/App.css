@@ -86,6 +86,12 @@ a:active {
 .section{
   margin-top: 40px;
 }
+@media (min-width: 800px) {
+  .section.-paragraph {
+    max-width: 800px;
+  }
+}
+
 .card-list {
   display: flex;
   flex-direction: column;

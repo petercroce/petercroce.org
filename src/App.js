@@ -20,9 +20,9 @@ class App extends Component {
           <div className="social-icons">
             {/* <a href="https://github.com/pscroce" target="_blank" rel="noopener noreferrer nofollow"
               className="github">GitHub</a> */}
-            <a href="https://linkedin.com/in/pscroce" target="_blank" rel="noopener noreferrer nofollow"
+            <a href="https://linkedin.com/in/pscroce" target="_blank" rel="noopener noreferrer"
               className="linkedin">LinkedIn</a>
-            <a href="http://waitbutwhy.nyc" target="_blank" rel="noopener noreferrer nofollow"
+            <a href="http://waitbutwhy.nyc" target="_blank" rel="noopener noreferrer"
               className="meetup">Meetup</a>
           </div>
         </header>
@@ -30,10 +30,21 @@ class App extends Component {
           <div className="section">
             <div className="welcome-section">
               <h1>Hello! I'm Peter Croce. </h1>
-              <p>I'm a tinkerer, product manager, cultural enthusiast, and lover of the outdoors.</p>
             </div>
           </div>
+
+          <div className="section -paragraph">
+            <p>I'm a tinkerer, product manager, cultural enthusiast, and lover of the outdoors.</p>
+            <p>As a product manager, I'm currently working with the good people at <a href="https://postlight.com" target="_blank" rel="noopener noreferrer">Postlight</a> in New York City. Before that I worked as a product manager for the design-first digital product agency, <a href="https://www.ny-ave.com/" target="_blank" rel="noopener noreferrer">New York Ave</a>. During that time I also worked part-time as a facilitator of design sprint workshops for <a href="http://thedali.org/programs/innovation-labs/" target="_blank" rel="noopener noreferrer">The Dali Museum Innovation Labs</a> in St. Petersburg, Florida.</p>
+          </div>
+
+          <div className="section -paragraph">
+            <h2>Where I'm Headed and Why</h2>
+            <p>I do the work I do because I plan to use business and technology as a force for not just doing well but for doing good for people and the life systems on which we rely. Lofty? Yeah. But it keeps me going for now.</p>
+            <p>In the meantime, I started a Meetup to talk about some of those things. It's called <a href="http://wbw.nyc" target="_blank" rel="noopener noreferrer">Wait But Why NYC</a>. Before that I co-founded and sat on the board of an organization teaching social enterprise at Stetson University called Ethical Incubator, participated in an international community of enterprise-minded changemakers called <a href="http://startingbloc.org/" target="_blank" rel="noopener noreferrer">StartingBloc</a> and another one called <a href="https://www.globalshapers.org/" target="_blank" rel="noopener noreferrer">Global Shapers</a>, an initiative by the World Economic Forum to bring together young people driving dialogue, action, and progress.</p>
+          </div>
           <div className="section">
+          <h2>Side Projects</h2>
             <div className="card-list">
               <div className="card">
                 <h3>Italian Citizenship Guide</h3>
@@ -101,11 +112,16 @@ class App extends Component {
               </div>
             </div>
           </div>
+          <div className="section -paragraph">
+            <h2>Good Communication</h2>
+            <p>is just as stimulating as black coffee, and just as hard to sleep after.</p>
+            <p>Say hello: pscroce@gmail.com</p>
+          </div>
         </body>
       <div className="section">
         <footer>
           <p>
-            Peter Croce lives in Brooklyn with his partner, <a
+            Peter lives in Brooklyn with his partner, <a
               href="https://erinpeace.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
