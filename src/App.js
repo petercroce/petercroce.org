@@ -47,7 +47,7 @@ class App extends Component {
             <p>In New York, I started <a href="http://waitbutwhy.nyc" target="_blank" rel="noopener noreferrer">Wait But Why NYC</a>, a group that gets together to talk about some of the big, unwieldy topics covered on the blog <a href="https://waitbutwhy.com">Wait But Why</a>. I also participate in StartingBloc, an international community of socially minded entrepreneurs, and Global Shapers, a World Economic Forum association that brings young people together to design and implement community projects around the world.</p>
           </div>
           <div className="section -paragraph">
-            <h2>Say Hello: pscroce@gmail.com</h2>
+            <h2>Say Hello: <a href="mailto:pscroce@gmail.com">pscroce@gmail.com</a></h2>
           </div>
         </body>
       <div className="section">
