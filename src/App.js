@@ -31,7 +31,7 @@ class App extends Component {
           </div>
 
           <div className="section -paragraph">
-            <p>I currently work with the good people at <a href="https://postlight.com" target="_blank" rel="noopener noreferrer">Postlight</a> in New York City. Before that I worked as a product manager for the design-first product and marketing agency, <a href="https://www.ny-ave.com/" target="_blank" rel="noopener noreferrer">New York Ave</a>, and part-time as a facilitator of creative problem-solving workshops for <a href="https://thedali.org/programs/innovation-labs/" target="_blank" rel="noopener noreferrer">The Dali Museum Innovation Labs</a>.</p>
+            <p>I currently work with the good people at <a href="https://postlight.com" target="_blank" rel="noopener noreferrer">Postlight</a> in New York City. Before that I worked as a product manager for the design-first product and marketing agency, <a href="https://www.ny-ave.com/" target="_blank" rel="noopener noreferrer">New York Ave</a>, and part-time as a facilitator of creative problem-solving workshops for <a href="https://thedali.org/innovation" target="_blank" rel="noopener noreferrer">The Dali Museum Innovation Labs</a>.</p>
             <p>Prior, I worked as a software engineer, slowly work-traveled through Europe and the Caribbean, and served as an AmeriCorps volunteer measuring businesses' environmental impact and offering custom cost-cutting sustainable options.</p>
           </div>
 
