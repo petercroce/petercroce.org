@@ -18,7 +18,7 @@ class App extends Component {
               className="github">GitHub</a> */}
             <a href="https://linkedin.com/in/pscroce" target="_blank" rel="noopener noreferrer"
               className="linkedin">LinkedIn</a>
-            <a href="http://waitbutwhy.nyc" target="_blank" rel="noopener noreferrer"
+            <a href="https://waitbutwhy.nyc" target="_blank" rel="noopener noreferrer"
               className="meetup">Meetup</a>
           </div>
         </header>
@@ -31,7 +31,7 @@ class App extends Component {
           </div>
 
           <div className="section -paragraph">
-            <p>I currently work with the good people at <a href="https://postlight.com" target="_blank" rel="noopener noreferrer">Postlight</a> in New York City. Before that I worked as a product manager for the design-first product and marketing agency, <a href="https://www.ny-ave.com/" target="_blank" rel="noopener noreferrer">New York Ave</a>, and part-time as a facilitator of creative problem-solving workshops for <a href="http://thedali.org/programs/innovation-labs/" target="_blank" rel="noopener noreferrer">The Dali Museum Innovation Labs</a>.</p>
+            <p>I currently work with the good people at <a href="https://postlight.com" target="_blank" rel="noopener noreferrer">Postlight</a> in New York City. Before that I worked as a product manager for the design-first product and marketing agency, <a href="https://www.ny-ave.com/" target="_blank" rel="noopener noreferrer">New York Ave</a>, and part-time as a facilitator of creative problem-solving workshops for <a href="https://thedali.org/programs/innovation-labs/" target="_blank" rel="noopener noreferrer">The Dali Museum Innovation Labs</a>.</p>
             <p>Prior, I worked as a software engineer, slowly work-traveled through Europe and the Caribbean, and served as an AmeriCorps volunteer measuring businesses' environmental impact and offering custom cost-cutting sustainable options.</p>
           </div>
 
@@ -44,7 +44,7 @@ class App extends Component {
           <div className="section -paragraph">
             <h2>How I'm getting there</h2>
             <p>Wherever I go I like to build community around shared interests. In 2016, I co-founded Overlap, a non-profit organization that helps local businesses qualify and apply for B Corporation certification. By involving Stetson University in the effort, we were able to involve passionate students and ensure the continuation of the organization’s mission.</p>
-            <p>In New York, I started <a href="http://waitbutwhy.nyc" target="_blank" rel="noopener noreferrer">Wait But Why NYC</a>, a group that gets together to talk about some of the big, unwieldy topics covered on the blog <a href="https://waitbutwhy.com">Wait But Why</a>. I also participate in StartingBloc, an international community of socially minded entrepreneurs, and Global Shapers, a World Economic Forum association that brings young people together to design and implement community projects around the world.</p>
+            <p>In New York, I started <a href="https://waitbutwhy.nyc" target="_blank" rel="noopener noreferrer">Wait But Why NYC</a>, a group that gets together to talk about some of the big, unwieldy topics covered on the blog <a href="https://waitbutwhy.com">Wait But Why</a>. I also participate in StartingBloc, an international community of socially minded entrepreneurs, and Global Shapers, a World Economic Forum association that brings young people together to design and implement community projects around the world.</p>
           </div>
           <div className="section -paragraph">
             <h2>Say Hello: <a href="mailto:pscroce@gmail.com">pscroce@gmail.com</a></h2>
