@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import tuscany from '../imgs/tuscany.jpg';
 import pSign from './pc-sign.svg';
 import './App.css';
 import './normalize.css';
