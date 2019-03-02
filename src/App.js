@@ -26,7 +26,7 @@ class App extends Component {
         <body>
           <div className="section -paragraph">
             <div className="welcome-section">
-              <h1>Hello. I'm Peter Croce. </h1>
+              <h1><span className="mobile-break">Hey. </span>I'm Peter Croce.</h1>
               <p>I'm a product manager, maker, and lover of the outdoors.</p>
             </div>
           </div>
@@ -37,7 +37,7 @@ class App extends Component {
           </div>
 
           <div className="section -paragraph">
-            <h2>Where I'm coming from and where I'm going</h2>
+            <h2>Where I come from and where I'm going</h2>
             <p>My product work so far has included building two-sided marketplaces with financial impact for both businesses and consumers, CMS publishing platforms, a birdwatching app, and both web and mobile products dependent on complex networks of APIs.</p>
             <p>I zoom in with design and engineering experts and zoom out with internal and external stakeholders to determine how our products can create consistent value at the right pace and with the right side effects.</p>
             <p>I do the work I do because I plan to use business and technology as a force for not just doing well but doing good.</p>

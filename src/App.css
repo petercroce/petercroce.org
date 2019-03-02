@@ -21,7 +21,10 @@
   font-family: 'Rubik', sans-serif;
   font-size: 1.275rem;
 }
-@media (min-width: 768px) {
+.App h1, .App h2, .App h3 {
+  font-size: 1.9em;
+}
+@media (min-width: 790px) {
   .App {
     margin: 0 200px 0 200px;
   }
@@ -57,7 +60,7 @@ h1, h2, h3 {
 .welcome-section p {
   margin: 0;
 } */
-/* @media (min-width: 768px) {
+/* @media (min-width: 790px) {
   .welcome-section h1,
   .welcome-section p {
     display: inline;
@@ -90,9 +93,9 @@ a:active {
 .section{
   margin-top: 40px;
 }
-@media (min-width: 768px) {
+@media (min-width: 790px) {
   .section.-paragraph {
-    max-width: 768px;
+    max-width: 790px;
     margin: 0 auto;
   }
 }
@@ -157,7 +160,7 @@ a:active {
   min-height: 250px;
   max-height: 275px;
 }
-@media (min-width: 768px) {
+@media (min-width: 790px) {
   .card-list-slider .card {
     width: 500px;
   }
@@ -169,11 +172,20 @@ a:active {
 .text-section {
 
 }
-@media (min-width: 768px) {
+@media (min-width: 790px) {
   .text-section {
     width: 49%;
   }
 }
+.mobile-break {
+  display: block;
+}
+@media (min-width: 790px) {
+  .mobile-break {
+    display: inline;
+  }
+}
+
 footer {
   min-height: 70px;
   border-top: 3px solid #3d3d3d;
