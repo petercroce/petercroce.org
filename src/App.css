@@ -21,9 +21,6 @@
   font-family: 'Rubik', sans-serif;
   font-size: 1.275rem;
 }
-.App h1, .App h2, .App h3 {
-  font-size: 1.9em;
-}
 @media (min-width: 790px) {
   .App {
     margin: 0 200px 0 200px;

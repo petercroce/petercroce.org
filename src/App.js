@@ -26,7 +26,7 @@ class App extends Component {
         <body>
           <div className="section -paragraph">
             <div className="welcome-section">
-              <h1><span className="mobile-break">Hey. </span>I'm Peter Croce.</h1>
+              <h1><span className="mobile-break">Hello. </span>I'm Peter Croce.</h1>
               <p>I'm a product manager, maker, and lover of the outdoors.</p>
             </div>
           </div>
