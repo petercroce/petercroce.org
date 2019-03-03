@@ -32,14 +32,14 @@ class App extends Component {
           </div>
 
           <div className="section -paragraph">
-            <p>I currently work with the good people at <a href="https://postlight.com" target="_blank" rel="noopener noreferrer">Postlight</a> in New York City. Before that I worked as a product manager for the design-first product and marketing agency, <a href="https://www.ny-ave.com/" target="_blank" rel="noopener noreferrer">New York Ave</a>, and part-time as a facilitator of creative problem-solving workshops for <a href="https://thedali.org/innovation" target="_blank" rel="noopener noreferrer">The Dali Museum Innovation Labs</a>.</p>
-            <p>Prior, I worked as a software engineer, slowly work-traveled through Europe and the Caribbean, and served as an AmeriCorps volunteer measuring businesses' environmental impact and offering custom cost-cutting sustainable options.</p>
+            <p>I currently work with the good people at <a href="https://postlight.com" target="_blank" rel="noopener noreferrer">Postlight</a> in New York City.</p>
+            <p>Prior, I worked for <a href="https://www.ny-ave.com/" target="_blank" rel="noopener noreferrer">New York Ave</a> and <a href="https://thedali.org/innovation" target="_blank" rel="noopener noreferrer">The Dali Museum Innovation Labs</a>, taught myself how to code and worked as a software engineer, slowly work-traveled through Europe and the Caribbean, and served as an AmeriCorps volunteer measuring businesses' environmental impact and offering custom cost-cutting sustainable options.</p>
           </div>
 
           <div className="section -paragraph">
             <h2>Where I come from and where I'm going</h2>
-            <p>My product work so far has involved financial, media, and non-profit verticals supported by two-sided marketplaces, publishing platforms, and even a birdwatching app.</p>
-            <p>By listening to stakeholders, I turn roughly-defined goals into strategies and tactics actionable by design and engineering experts to quickly ship, learn, and iterate.</p>
+            <p>My product work so far has involved finance, media, and non-profit verticals in which I've worked with teams of incredibly smart and talented people to create two-sided marketplaces, publishing platforms, and even a birdwatching app.</p>
+            <p>By listening to stakeholders, I turn undefined or roughly-defined goals into strategies and tactics that are actionable by design and engineering experts to quickly ship, learn, and iterate on products and their supporting platforms.</p>
             <p>I do the work I do because I plan to use business and technology as a force for not just doing well but doing good.</p>
           </div>
           <div className="section -paragraph">
