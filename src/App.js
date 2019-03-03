@@ -38,8 +38,8 @@ class App extends Component {
 
           <div className="section -paragraph">
             <h2>Where I come from and where I'm going</h2>
-            <p>My product work so far has included building two-sided marketplaces with financial impact for both businesses and consumers, CMS publishing platforms, a birdwatching app, and both web and mobile products dependent on complex networks of APIs.</p>
-            <p>I zoom in with design and engineering experts and zoom out with internal and external stakeholders to determine how our products can create consistent value at the right pace and with the right side effects.</p>
+            <p>My product work so far has involved financial, media, and non-profit verticals supported by two-sided marketplaces, publishing platforms, and even a birdwatching app.</p>
+            <p>By listening to stakeholders, I turn roughly-defined goals into strategies and tactics actionable by design and engineering experts to quickly ship, learn, and iterate.</p>
             <p>I do the work I do because I plan to use business and technology as a force for not just doing well but doing good.</p>
           </div>
           <div className="section -paragraph">
