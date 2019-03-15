@@ -33,7 +33,7 @@ class App extends Component {
 
           <div className="section -paragraph">
             <p>I currently work with the good people at <a href="https://postlight.com" target="_blank" rel="noopener noreferrer">Postlight</a> in New York City.</p>
-            <p>Prior, I worked for <a href="https://www.ny-ave.com/" target="_blank" rel="noopener noreferrer">New York Ave</a> and <a href="https://thedali.org/innovation" target="_blank" rel="noopener noreferrer">The Dali Museum Innovation Labs</a>, taught myself how to code and worked as a software engineer, slowly work-traveled through Europe and the Caribbean, and served as an AmeriCorps volunteer measuring businesses' environmental impact and offering custom cost-cutting sustainable options.</p>
+            <p>Prior, I worked for <a href="https://www.ny-ave.com/" target="_blank" rel="noopener noreferrer">New York Ave</a> and <a href="https://thedali.org/innovation" target="_blank" rel="noopener noreferrer">The Dali Museum Innovation Labs</a>, slowly work-traveled through Europe and the Caribbean, and served as an AmeriCorps volunteer measuring businesses' environmental impact and offering custom cost-cutting sustainable options.</p>
           </div>
 
           <div className="section -paragraph">
