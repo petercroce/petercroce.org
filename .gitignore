@@ -9,6 +9,7 @@
 # production
 /build
 .netlify
+.netlifyold
 
 # misc
 .DS_Store
