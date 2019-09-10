@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import me from './imgs/Peter-Croce.jpg';
-import pSign from './pc-sign.svg';
 import './App.css';
 import './normalize.css';
 
