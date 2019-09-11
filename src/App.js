@@ -91,12 +91,7 @@ class App extends Component {
             href="https://erinpeace.com"
             target="_blank"
             rel="noopener noreferrer nofollow"
-              >Erin</a>,
-          and works with the good people at <a
-            href="https://postlight.com"
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-              >Postlight</a>.
+              >Erin</a>.
         </p>
       </footer>
       </div>

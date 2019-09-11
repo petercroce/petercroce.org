@@ -45,11 +45,11 @@ body {
 }
 
 .welcome-section {
-  margin-top: 40px;
   width: 100%;
 }
 @media (min-width: 790px) {
   .welcome-section {
+    margin-top: 40px;
     width: 500px;
   }
 }
