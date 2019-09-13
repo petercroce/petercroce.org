@@ -51,7 +51,7 @@ class App extends Component {
             <h2>Side projects & community</h2>
             <ul>
               <li>
-                Making tools for reversing climate change with Reversible
+                Making tools for reversing climate change with <a href="https://reversible.cc" target="_blank" rel="noopener noreferrer">Reversible</a>
               </li>
               <li>
                 Hosting meetups for NYC-based product managers at <a href="https://postlight.com/events" target="_blank" rel="noopener noreferrer">Postlight</a>
