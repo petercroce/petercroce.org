@@ -27,7 +27,7 @@ class App extends Component {
         <div className="main-section">
 
           <div className="section -paragraph">
-            <h2>Past clients</h2>
+            <h2>Select clients</h2>
             <ul>
               <li>
                 The Audubon Society
@@ -40,9 +40,6 @@ class App extends Component {
               </li>
               <li>
                 PBS (Public Broadcasting Service)
-              </li>
-              <li>
-                MEL Magazine
               </li>
             </ul>
           </div>
