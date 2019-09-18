@@ -82,13 +82,12 @@ ul li {
 a,
 a:visited {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
   fill: inherit;
   background-image: linear-gradient(180deg,transparent 88%, var(--primary) 0);
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: all 0.2s ease-in-out;
-  font-weight: 500;
 }
 a:hover,
 a:active {
