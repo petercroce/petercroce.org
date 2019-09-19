@@ -48,7 +48,7 @@ class App extends Component {
             <h2>Side projects & community</h2>
             <ul>
               <li>
-                Making tools for reversing climate change with <a href="https://reversible.cc" target="_blank" rel="noopener noreferrer">Reversible</a>
+                Making tools for reversing climate change as <a href="https://reversible.cc" target="_blank" rel="noopener noreferrer">Reversible</a>
               </li>
               <li>
                 Hosting meetups for NYC-based product managers at <a href="https://postlight.com/events" target="_blank" rel="noopener noreferrer">Postlight</a>
@@ -57,16 +57,16 @@ class App extends Component {
                 Hosting meetups for readers of <a href="https://waitbutwhy.com" target="_blank" rel="noopener noreferrer">Wait But Why</a> at <a href="https://www.meetup.com/Wait-But-Why-NYC" target="_blank" rel="noopener noreferrer">Wait But Why NYC</a>
               </li>
               <li>
-                Shared an example of biology inspring innovation every week for two years as @biomimicry on Instagram
+                Learning biologically inspired design as <a href="https://www.instagram.com/biomimicry/" target="_blank" rel="noopener noreferrer">@biomimicry</a>
               </li>
               <li>
                 Co-founded Overlap, a non-profit organization that helps Central Florida businesses qualify and apply for B Corporation certification
               </li>
               <li>
-                <a href="https://startingbloc.org/" target="_blank" rel="noopener noreferrer">StartingBloc</a>
+                Member of <a href="https://startingbloc.org/" target="_blank" rel="noopener noreferrer">StartingBloc</a>
               </li>
               <li>
-                <a href="https://www.globalshapers.org/" target="_blank" rel="noopener noreferrer">Global Shapers</a>
+                Member of <a href="https://www.globalshapers.org/" target="_blank" rel="noopener noreferrer">Global Shapers</a>
               </li>
             </ul>
           </div>
