@@ -52,12 +52,11 @@ body {
   }
 }
 .main-section {
-  margin-top: 80px;
-
+  margin-top: 0px;
 }
 @media (min-width: 790px) {
   .main-section {
-
+    margin-top: 80px;
   }
 }
 .section{
