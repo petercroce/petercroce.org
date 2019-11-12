@@ -19,7 +19,7 @@ class App extends Component {
             <p>I'm a senior product manager currently work with the good people at <a href="https://postlight.com" target="_blank" rel="noopener noreferrer">Postlight</a> in New York City.</p>
             <p>Before working in technology, I served as an AmeriCorps volunteer auditing businesses' environmental impact and offering custom efficiency improvement roadmaps.</p>
             <p>Before that, I slowly work-traveled and hitchhiked through parts of Europe while working freelance as a software engineer, <a href="https://www.youtube.com/watch?v=UCwNYGvzR5E&t" target="_blank" rel="noopener noreferrer">lived and worked on a sailboat</a>, and <a href="https://www.youtube.com/watch?v=C-OcMKMY23I" target="_blank" rel="noopener noreferrer">teleported around Scotland and Wales</a>.</p>
-            <p>I am drawn to business and technology because I believe they are the biggest levers to effect social good, starting with reversing climate change.</p>
+            <p>I am drawn to business and technology because I believe they are the biggest levers to enact large-scale solutions. I am starting with climate change.</p>
           </div>
 
         </div>
@@ -30,16 +30,16 @@ class App extends Component {
             <h2>Select clients</h2>
             <ul>
               <li>
-                The Audubon Society
+                <a href="https://postlight.com/work/audubon" title="View the case study on Postlight.com" target="_blank" rel="noopener noreferrer">The Audubon Society</a>
               </li>
               <li>
-                Dollar Shave Club
+                <a href="https://www.dollarshaveclub.com/content" title="Visit the website" target="_blank" rel="noopener noreferrer">Dollar Shave Club</a>
               </li>
               <li>
-                Insight Catastrophe Insurance
+                <a href="https://postlight.com/work/insight" title="View the case study on Postlight.com" target="_blank" rel="noopener noreferrer">Insight Catastrophe Insurance</a>
               </li>
               <li>
-                PBS (Public Broadcasting Service)
+                <a href="https://www.pbs.org/the-great-american-read/home/" title="Visit the website" target="_blank" rel="noopener noreferrer">PBS (Public Broadcasting Service)</a>
               </li>
             </ul>
           </div>
@@ -51,21 +51,24 @@ class App extends Component {
                 Making tools for reversing climate change as <a href="https://reversible.cc" target="_blank" rel="noopener noreferrer">Reversible</a>
               </li>
               <li>
+                Hosting pragmatic optimists at <a href="https://www.meetup.com/carbonremovalnyc" target="_blank" rel="noopener noreferrer">Carbon Removal NYC</a>
+              </li>
+              <li>
                 Hosting meetups for NYC-based product managers at <a href="https://postlight.com/events" target="_blank" rel="noopener noreferrer">Postlight</a>
               </li>
-              <li>
-                Hosting meetups for readers of <a href="https://waitbutwhy.com" target="_blank" rel="noopener noreferrer">Wait But Why</a> at <a href="https://www.meetup.com/Wait-But-Why-NYC" target="_blank" rel="noopener noreferrer">Wait But Why NYC</a>
+              <li className="list-style-type-circle">
+                Hosted meetups for readers of <a href="https://waitbutwhy.com" target="_blank" rel="noopener noreferrer">Wait But Why</a> at <a href="https://www.meetup.com/Wait-But-Why-NYC" target="_blank" rel="noopener noreferrer">Wait But Why NYC</a>
               </li>
-              <li>
-                Learning biologically inspired design as <a href="https://www.instagram.com/biomimicry/" target="_blank" rel="noopener noreferrer">@biomimicry</a>
+              <li className="list-style-type-circle">
+                Learned biologically inspired design as <a href="https://www.instagram.com/biomimicry/" target="_blank" rel="noopener noreferrer">@biomimicry</a>
               </li>
-              <li>
+              <li className="list-style-type-circle">
                 Co-founded Overlap, a non-profit organization that helps Central Florida businesses qualify and apply for B Corporation certification
               </li>
-              <li>
+              <li className="list-style-type-circle">
                 Member of <a href="https://startingbloc.org/" target="_blank" rel="noopener noreferrer">StartingBloc</a>
               </li>
-              <li>
+              <li className="list-style-type-circle">
                 Member of <a href="https://www.globalshapers.org/" target="_blank" rel="noopener noreferrer">Global Shapers</a>
               </li>
             </ul>

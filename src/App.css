@@ -102,6 +102,10 @@ a:active {
   background-size: 100% 100%;
 }
 
+.list-style-type-circle {
+  list-style-type: circle;
+}
+
 
 footer {
   min-height: 70px;
