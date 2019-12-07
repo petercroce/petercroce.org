@@ -19,7 +19,7 @@ class App extends Component {
             <p>I'm a lead product manager currently work with the good people at <a href="https://postlight.com" target="_blank" rel="noopener noreferrer">Postlight</a> in New York City.</p>
             <p>Before working in technology, I served as an AmeriCorps volunteer auditing businesses' environmental impact and offering custom efficiency improvement roadmaps.</p>
             <p>Before that, I slowly work-traveled and hitchhiked through parts of Europe while working freelance as a software engineer, <a href="https://www.youtube.com/watch?v=UCwNYGvzR5E&t" target="_blank" rel="noopener noreferrer">lived and worked on a sailboat</a>, and <a href="https://www.youtube.com/watch?v=C-OcMKMY23I" target="_blank" rel="noopener noreferrer">teleported around Scotland and Wales</a>.</p>
-            <p>I am drawn to business and technology because I believe they are the biggest levers to enact large-scale solutions. I am starting with climate change.</p>
+            <p>I am drawn to business and technology because I believe they are the biggest levers to enact large-scale solutions. I am starting with climate change. I am an American and European citizen looking for ways I can make an impact on either or both continents.</p>
           </div>
 
         </div>
