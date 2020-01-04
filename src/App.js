@@ -13,11 +13,9 @@ class App extends Component {
       <body>
 
         <div className="welcome-section section">
-          <div className="section -paragraph">
-            <img src={me} alt="Headshot of Peter Croce" id="headshot" />
-            <h1>Peter Croce</h1>
-            <p>I am a lead product manager currently working with the good people at <a href="https://postlight.com" target="_blank" rel="noopener noreferrer">Postlight</a> in New York City.</p>
-          </div>
+          <img src={me} alt="Headshot of Peter Croce" id="headshot" />
+          <h1>Peter Croce</h1>
+          <p>I am a lead product manager currently working with the good people at <a href="https://postlight.com" target="_blank" rel="noopener noreferrer">Postlight</a> in New York City.</p>
         </div>
 
         <div className="main-section">
