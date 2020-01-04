@@ -20,8 +20,8 @@ class App extends Component {
           </div>
           <div className="social-links">
             <ul>
-              <li><a href="https://linkedin.com/in/pscroce">LinkedIn</a></li>
-              <li><a href="https://twitter.com/petercroce">Twitter</a></li>
+              <li><a href="https://linkedin.com/in/pscroce" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+              <li><a href="https://twitter.com/petercroce" target="_blank" rel="noopener noreferrer">Twitter</a></li>
             </ul>
           </div>
         </div>
