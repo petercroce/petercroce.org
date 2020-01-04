@@ -18,19 +18,13 @@ class App extends Component {
             <h1>Peter Croce</h1>
             <p>I am a lead product manager currently working with the good people at <a href="https://postlight.com" target="_blank" rel="noopener noreferrer">Postlight</a> in New York City.</p>
           </div>
-          <div className="social-links">
-            <ul>
-              <li><a href="https://linkedin.com/in/pscroce" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-              <li><a href="https://twitter.com/petercroce" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-            </ul>
-          </div>
         </div>
 
         <div className="main-section">
 
         <div className="section -paragraph">
           <h2>Background</h2>
-          <p>Before product management, I worked as a designer and software engineer.</p>
+          <p>Before product management, I worked as a software engineer and designer.</p>
           <p>Before working in technology, I served as an AmeriCorps volunteer auditing businesses' environmental impact and offering custom efficiency improvement roadmaps.</p>
           <p>Before that, I slowly work-traveled through parts of Europe while working freelance as a software engineer, <a href="https://www.youtube.com/watch?v=UCwNYGvzR5E&t" target="_blank" rel="noopener noreferrer">lived and worked on a sailboat</a>, and <a href="https://www.youtube.com/watch?v=C-OcMKMY23I" target="_blank" rel="noopener noreferrer">teleported around Scotland and Wales</a>.</p>
           <p>I am drawn to business and technology because I believe they are the biggest levers to enact large-scale solutions. I am focused on our climate crisis.</p>
@@ -83,6 +77,12 @@ class App extends Component {
           <div className="section -paragraph">
             <h2>Say hello</h2>
             <p>I'm always happy to talk, especially about climate crisis solutions, good product and service design work, and fun outdoor adventures. <a href="mailto:pscroce@gmail.com">Say hello</a>.</p>
+            <div className="social-links">
+              <ul>
+                <li><a href="https://linkedin.com/in/pscroce" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://twitter.com/petercroce" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+              </ul>
+            </div>
           </div>
 
         </div>
