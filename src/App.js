@@ -38,19 +38,28 @@ class App extends Component {
         </div>
 
           <div className="section -paragraph">
-            <h2>Select clients</h2>
+            <h2>Select products shipped</h2>
             <ul>
               <li>
-                <a href="https://postlight.com/work/audubon" title="View the case study on Postlight.com" target="_blank" rel="noopener noreferrer">The Audubon Society</a>
+                <a href="https://postlight.com/work/insight" title="View the case study on Postlight.com" target="_blank" rel="noopener noreferrer">Agent Portal</a>, an insurance quoting engine and policy management system for insurance agents who sell SageSure homeowners insurance for Insight Catastrophe Group
               </li>
               <li>
-                <a href="https://www.dollarshaveclub.com/content" title="Visit the website" target="_blank" rel="noopener noreferrer">Dollar Shave Club</a>
+                <a href="https://my.sagesure.com/" title="Visit the MySageSure policyholder account manager" target="_blank" rel="noopener noreferrer">MySageSure</a>, a policyholder account management web application for Insight Catastrophe Group
               </li>
               <li>
-                <a href="https://postlight.com/work/insight" title="View the case study on Postlight.com" target="_blank" rel="noopener noreferrer">Insight Catastrophe Insurance</a>
+                <a href="https://www.sagesure.com/find-an-agent/" title="Visit the SageSure Find an Agent application" target="_blank" rel="noopener noreferrer">Find an Agent</a>, a directory using the Google Maps API to help homeowners find SageSure insurance agents nearby
               </li>
               <li>
-                <a href="https://www.pbs.org/the-great-american-read/home/" title="Visit the website" target="_blank" rel="noopener noreferrer">PBS (Public Broadcasting Service)</a>
+                <a href="https://www.dollarshaveclub.com/content" title="Visit Original Content on Dollar Shave Club" target="_blank" rel="noopener noreferrer">Original Content</a>, a CMS and company blog for Dollar Shave Club
+              </li>
+              <li>
+                <a href="https://melmagazine.com/" title="Visit MEL Magazine" target="_blank" rel="noopener noreferrer">MEL Magazine</a>, a CMS and online magazine for Dollar Shave Club
+              </li>
+              <li>
+                <a href="https://www.pbs.org/the-great-american-read/home/" title="Visit the website" target="_blank" rel="noopener noreferrer">The Great American Read website</a>, an online index of books and a voting application for the PBS show The Great American Read
+              </li>
+              <li>
+                <a href="https://postlight.com/work/audubon" title="View the case study on Postlight.com" target="_blank" rel="noopener noreferrer">Audubon Bird Guide</a>, an iOS and Android birdwatching app for The Audubon Society
               </li>
             </ul>
           </div>
@@ -69,24 +78,6 @@ class App extends Component {
               </li>
             </ul>
 
-            <h3>Past</h3>
-            <ul>
-              <li className="list-style-type-circle">
-                Hosted meetups for readers of <a href="https://waitbutwhy.com" target="_blank" rel="noopener noreferrer">Wait But Why</a> at <a href="https://www.meetup.com/Wait-But-Why-NYC" target="_blank" rel="noopener noreferrer">Wait But Why NYC</a>
-              </li>
-              <li className="list-style-type-circle">
-                Learned biologically inspired design as <a href="https://www.instagram.com/biomimicry/" target="_blank" rel="noopener noreferrer">@biomimicry</a> on Instagram
-              </li>
-              <li className="list-style-type-circle">
-                Co-founded Overlap, a non-profit organization that helps Central Florida businesses qualify and apply for B Corporation certification
-              </li>
-              <li className="list-style-type-circle">
-                Member of <a href="https://startingbloc.org/" target="_blank" rel="noopener noreferrer">StartingBloc</a>
-              </li>
-              <li className="list-style-type-circle">
-                Member of <a href="https://www.globalshapers.org/" target="_blank" rel="noopener noreferrer">Global Shapers</a>
-              </li>
-            </ul>
           </div>
 
           <div className="section -paragraph">
