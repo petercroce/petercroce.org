@@ -31,13 +31,8 @@ class App extends Component {
 
           <div className="section -paragraph">
             <h2>Select products shipped</h2>
+            <h3>0 to 1 products</h3>
             <ul>
-              <li>
-                <a href="https://postlight.com/work/insight" title="View the case study on Postlight.com" target="_blank" rel="noopener noreferrer">Agent Portal</a>, an insurance quoting engine and policy management system for insurance agents who sell SageSure homeowners insurance for Insight Catastrophe Group
-              </li>
-              <li>
-                <a href="https://my.sagesure.com/" title="Visit the MySageSure policyholder account manager" target="_blank" rel="noopener noreferrer">MySageSure</a>, a policyholder account management web application for Insight Catastrophe Group
-              </li>
               <li>
                 <a href="https://www.sagesure.com/find-an-agent/" title="Visit the SageSure Find an Agent application" target="_blank" rel="noopener noreferrer">Find an Agent</a>, a directory using the Google Maps API to help homeowners find SageSure insurance agents nearby
               </li>
@@ -45,7 +40,16 @@ class App extends Component {
                 <a href="https://www.dollarshaveclub.com/content" title="Visit Original Content on Dollar Shave Club" target="_blank" rel="noopener noreferrer">Original Content</a>, a CMS and company blog for Dollar Shave Club
               </li>
               <li>
-                <a href="https://melmagazine.com/" title="Visit MEL Magazine" target="_blank" rel="noopener noreferrer">MEL Magazine</a>, a CMS and online magazine for Dollar Shave Club
+                <a href="https://melmagazine.com/" title="Visit MEL Magazine" target="_blank" rel="noopener noreferrer">MEL Magazine</a>, a CMS and online magazine 
+              </li>
+            </ul>
+            <h3>1 to N products</h3>
+            <ul>
+              <li>
+                <a href="https://postlight.com/work/insight" title="View the case study on Postlight.com" target="_blank" rel="noopener noreferrer">Agent Portal</a>, an insurance quoting engine and policy management system for insurance agents who sell SageSure homeowners insurance for Insight Catastrophe Group
+              </li>
+              <li>
+                <a href="https://my.sagesure.com/" title="Visit the MySageSure policyholder account manager" target="_blank" rel="noopener noreferrer">MySageSure</a>, a policyholder account management web application for Insight Catastrophe Group
               </li>
               <li>
                 <a href="https://www.pbs.org/the-great-american-read/home/" title="Visit the website" target="_blank" rel="noopener noreferrer">The Great American Read website</a>, an online index of books and a voting application for the PBS show The Great American Read
