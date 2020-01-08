@@ -34,13 +34,13 @@ class App extends Component {
             <h3>0 to 1 products</h3>
             <ul>
               <li>
-                <a href="https://www.sagesure.com/find-an-agent/" title="Visit the SageSure Find an Agent application" target="_blank" rel="noopener noreferrer">Find an Agent</a>, a directory using the Google Maps API to help homeowners find SageSure insurance agents nearby
+                <a href="https://www.sagesure.com/find-an-agent/" title="Visit the SageSure Find an Agent application" target="_blank" rel="noopener noreferrer">Find an Agent</a>, a map-based search tool to help homeowners find SageSure homeowners insurance agents nearby
               </li>
               <li>
                 <a href="https://www.dollarshaveclub.com/content" title="Visit Original Content on Dollar Shave Club" target="_blank" rel="noopener noreferrer">Original Content</a>, a CMS and company blog for Dollar Shave Club
               </li>
               <li>
-                <a href="https://melmagazine.com/" title="Visit MEL Magazine" target="_blank" rel="noopener noreferrer">MEL Magazine</a>, a CMS and online magazine 
+                <a href="https://melmagazine.com/" title="Visit MEL Magazine" target="_blank" rel="noopener noreferrer">MEL Magazine</a>, a CMS and online magazine
               </li>
             </ul>
             <h3>1 to N products</h3>
