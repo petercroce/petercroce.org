@@ -66,7 +66,7 @@ class App extends Component {
                 Hosting pragmatic optimists at <a href="https://www.meetup.com/carbonremovalnyc" target="_blank" rel="noopener noreferrer">Carbon Removal NYC</a>
               </li>
               <li>
-                Making a simple carbon footprint calculator at <a href="https://reversible.cc" target="_blank" rel="noopener noreferrer">Reversible</a>
+                Making a simple carbon footprint calculator at <a href="https://reversible.cc/calculator" target="_blank" rel="noopener noreferrer">Reversible</a>
               </li>
               <li>
                 Hosting meetups for NYC-based product managers at <a href="https://postlight.com/events" target="_blank" rel="noopener noreferrer">Postlight</a>
