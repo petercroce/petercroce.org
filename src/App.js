@@ -26,7 +26,6 @@ class App extends Component {
           <p>Before working in technology, I served as an AmeriCorps volunteer auditing businesses' environmental impact and offering custom efficiency improvement roadmaps.</p>
           <p>Before that, I slowly work-traveled through parts of Europe while working freelance as a software engineer, <a href="https://www.youtube.com/watch?v=UCwNYGvzR5E&t" target="_blank" rel="noopener noreferrer">lived and worked on a sailboat</a>, and <a href="https://www.youtube.com/watch?v=C-OcMKMY23I" target="_blank" rel="noopener noreferrer">teleported around Scotland and Wales</a>.</p>
           <p>I am drawn to business and technology because I believe they are the biggest levers to enact large-scale solutions. I am focused on our climate crisis.</p>
-          <p>I am an EU and US dual citizen.</p>
         </div>
 
           <div className="section -paragraph">
