@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="../favicon.ico">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="theme-color" content="#f7f7f7">
+  <meta name="description" content="Peter Croce is curious generalist, people-first product lead, and lover of the outdoors focused on the climate crisis.">
+  <meta name="keywords" content="Peter Croce, Product Manager, Product Leader, Leader, Postlight, Digital Products, Product Strategist">
+  <meta property="og:title" content="Peter Croce">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Peter Croce is curious generalist, people-first product lead, and lover of the outdoors focused on the climate crisis.">
+
+  <title>Carbon math</title>
+  <meta property="og:url" content="https://petercroce.org/carbon-math/">
+  <meta property="og:image" content="/images/wait-but-hi.jpg">
+  <link href="/styles.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet" >
+
+  <script>
+    ! function(e, a, t, n, g, c, o) {
+      e.GoogleAnalyticsObject = g, e.ga = e.ga || function() {
+        (e.ga.q = e.ga.q || []).push(arguments)
+      }, e.ga.l = 1 * new Date, c = a.createElement(t), o = a.getElementsByTagName(t)[0], c.async = 1, c.src = "//www.google-analytics.com/analytics.js", o.parentNode.insertBefore(c, o)
+    }(window, document, "script", 0, "ga"), ga("create", "UA-69291273-1", "auto"), ga("send", "pageview")
+  </script>
+</head>
+<body>
+  <div class="section reading-section">
+    <h1>Carbon math</h1>
+    <p>These circles representatively illustrate the amount of carbon dioxide in the atmosphere that is unsafe, the amount that is added every year, and and the goal for annual carbon removal by 2050. The <a href="https://docs.google.com/spreadsheets/d/1NbgwaXTA_9cYyOPNfspk3BkWfvXBZ7WDePn5ixggzWc/edit#gid=0">math for these calculations</a> are based on the sources linked below and back-of-the-envelop formula for converting ppm of CO2 to GT of CO2 emissions. I am seeking a more precise formula and would welcome advice and corrections.</p>
+  </div>
+  <div id="canvas">
+
+    <div class="section">
+      <div id="current-atmosphere-wrap" class="diagram-wrap">
+        <div class="label">
+          <p>Current atmospheric carbon dioxide debt is 945 GT. Put another way, there are currently at least 945 more billion tons of carbon dioxide in the atmosphere than is safe for life on Earth. Here, we are using 350ppm as a safe concentration, which is widely accepted as the uppermost safe limit.</p>
+          <p class="source">
+            Sources: <a href="https://climate.nasa.gov/vital-signs/carbon-dioxide/" class="source-link">NASA</a>, <a href="https://www.giss.nasa.gov/research/briefs/hansen_13/">James Hansen</a>.
+          </p>
+        </div>
+        <div id="current-atmosphere" class="carbon-circle">945 GT</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div id="annual-emissions-wrap" class="diagram-wrap">
+        <div class="label">
+          <p>Annual emissions globally were 36 GT in 2017.</p>
+          <p class="source">
+            Source: <a href="https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions#how-have-global-co2-emissions-changed-over-time" class="source-link">Our World in Data</a>.
+          </p>
+        </div>
+        <div id="annual-emissions" class="carbon-circle">36 GT</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div id="removal-goal-wrap" class="diagram-wrap">
+        <div class="label">
+          <p>The goal for annual carbon dioxide removal to reach net zero annual global emissions by 2050 is 10 GT. This is expected to keep global warming under 2ºC, and assumes we will be able to reduce emissions to 26 GT per year by 2050.</p>
+          <p class="source">
+            Source: <a href="https://www.sciencedirect.com/science/article/pii/S0959378016300711?via%3Dihub" class="source-link">Kriegler et al</a>.
+          </p>
+        </div>
+        <div id="removal-goal" class="carbon-circle">10 GT</div>
+      </div>
+    </div>
+
+    <div id="key">
+    </div>
+
+  </div>
+
+  <div class="section">
+    <ul class="link-list">
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/writing/">Writing</a>
+      </li>
+    </ul>
+  </div>
+
+
+</body>
+</html>

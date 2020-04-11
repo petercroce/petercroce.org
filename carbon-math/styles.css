@@ -1,0 +1,75 @@
+:root {
+  --primary: #3d3d3d;
+  --light-gray: #e1e1e1;
+  --background-color: #f7f7f7;
+  --highlight: #FFFFB4;
+}
+
+#canvas {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: helvetica, sans-serif;
+  margin: 40px 0;
+  padding-bottom: 60px;
+  border-bottom: 2px solid var(--primary);
+}
+.key {
+  margin: 40px 0;
+}
+
+.carbon-circle {
+  margin: 40px 20px;
+  color: var(--light-gray);
+  font-size: 10px;
+}
+
+.diagram-wrap {
+  display: flex;
+  margin-right: 60px;
+  flex-direction: column;
+}
+
+@media (min-width:790px) {
+  .label {
+    max-width: 300px;
+  }
+  .diagram-wrap {
+    flex-direction: row;
+    align-items: center;
+
+  }
+}
+
+
+#current-atmosphere {
+  background-color: var(--primary);
+  height: 346.87px; /* use vw or something responsive? */
+  width: 346.87px;
+  border-radius: 500px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#annual-emissions {
+  background-color: var(--primary);
+  height: 67.70px;
+  width: 67.70px;
+  border-radius: 500px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#removal-goal {
+  background-color: var(--primary);
+  height: 35.68px;
+  width: 35.68px;
+  border-radius: 500px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
