@@ -1,7 +1,5 @@
-# petercroce.org
+# PeterCroce.org
 
-This is my personal website.
+This is my personal website. It has information about my background, professional life, and various adventures. Also, some writing.
 
---
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+That's all there is to say about that.
