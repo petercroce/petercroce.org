@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-https://frosty-wozniak-67893b.netlify.com/* https://petercroce.org/:splat 301!
+/blog   /writing
