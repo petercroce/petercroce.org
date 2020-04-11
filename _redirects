@@ -1,5 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
 /blog   /writing
-
-# Catch all requests to non-specified routes and send them home
-/*      /           404

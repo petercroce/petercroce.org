@@ -40,12 +40,16 @@ body p {
 }
 #headshot {
   border-radius: 100px;
-  max-width: 150px
+  width: 150px
 }
 
 .section {
   margin-top: 60px;
-  max-width: 750px
+}
+@media (min-width:790px) {
+  .section {
+    width: 750px
+  }
 }
 ul li {
   margin: 15px 0
