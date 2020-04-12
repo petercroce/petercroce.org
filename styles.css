@@ -59,12 +59,16 @@ ul li {
   margin: 15px 0
 }
 ul.link-list li {
-  list-style: none;
   display: inline-block;
-  margin-right: 30px
+  list-style: none;
+  margin-right: 15px
 }
 ul.link-list {
   padding: 0
+}
+nav.breadcrumbs ul li:not(:last-child)::after {
+  content: "›";
+  margin-left: 15px;
 }
 
 a, a:visited {
@@ -82,10 +86,15 @@ a:active, a:hover {
   background-size: 100% 100%
 }
 
+.section.writing p:last-child::after {
+  content: "⎔";
+  position: relative;
+  top: -2px;
+}
 .writing-image {
   margin-top: 1em;
   width: 100%;
 }
-figcaption {
+figcaption, time {
   font-size: 1rem;
 }
