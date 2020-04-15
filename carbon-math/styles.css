@@ -18,9 +18,14 @@
 }
 
 .carbon-circle {
-  margin: 40px 20px;
+  margin: 30px 0;
   color: var(--light-gray);
   font-size: 10px;
+}
+@media (min-width:790px) {
+  .carbon-circle {
+    margin: 40px 20px;
+  }
 }
 
 .diagram-wrap {
@@ -31,7 +36,7 @@
 
 @media (min-width:790px) {
   .label {
-    max-width: 300px;
+    max-width: 320px;
   }
   .diagram-wrap {
     flex-direction: row;
