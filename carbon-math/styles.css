@@ -30,7 +30,6 @@
 
 .diagram-wrap {
   display: flex;
-  margin-right: 60px;
   flex-direction: column;
 }
 
@@ -41,7 +40,7 @@
   .diagram-wrap {
     flex-direction: row;
     align-items: center;
-
+    margin-right: 60px;
   }
 }
 
