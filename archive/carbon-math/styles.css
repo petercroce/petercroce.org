@@ -40,7 +40,7 @@
 }
 .diagram-wrap p {
   font-size: 0.8em;
-  max-width: 230px;
+  max-width: 250px;
 }
 
 @media (min-width:790px) {
@@ -50,7 +50,7 @@
   .diagram-wrap {
     flex-direction: row;
     align-items: center;
-    margin-right: 60px;
+    margin-right: 40px;
   }
 }
 
