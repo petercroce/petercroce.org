@@ -27,6 +27,12 @@
     margin: 40px 20px;
   }
 }
+.carbon-circle-lg {
+  font-size: 30px;
+}
+.carbon-circle-md {
+  font-size: 15px;
+}
 
 .diagram-wrap {
   display: flex;
@@ -76,4 +82,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+sub {
+  font-size: 12px;
 }
