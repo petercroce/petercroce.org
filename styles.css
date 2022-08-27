@@ -74,6 +74,9 @@ nav.breadcrumbs ul li:not(:last-child)::after {
   content: "›";
   margin-left: 15px;
 }
+nav.breadcrumbs {
+  text-align: center;
+}
 
 a, a:visited {
   background-repeat: no-repeat;
