@@ -99,12 +99,16 @@ a:active, a:hover {
   padding-bottom: 50px;
 }
 .writing-image {
-  margin-top: 1em;
+  margin: 2em 0;
+}
+.writing-image img {
   width: 100%;
 }
 figcaption, time {
   font-size: 1rem;
   font-weight: 300;
+  text-align: center;
+  margin-top: -5px;
 }
 
 aside {
