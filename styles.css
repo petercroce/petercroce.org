@@ -92,7 +92,8 @@ a, a:visited {
   background-size: 0 100%;
   fill: inherit;
   text-decoration: underline;
-  transition: all .2s ease-in-out
+  /* text-decoration-thickness: 2px; */
+  transition: all .2s ease-in-out;
 }
 a, a:active, a:hover, a:visited {
   color: inherit;
@@ -100,6 +101,12 @@ a, a:active, a:hover, a:visited {
 }
 a:active, a:hover {
   background-size: 100% 100%
+}
+a.continue {
+
+}
+a.continue::after {
+  content: "  ➟";
 }
 
 .writing {
