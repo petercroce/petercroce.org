@@ -118,7 +118,7 @@ aside {
   padding-left: 10px;
 }
 aside::before {
-  content: "Side note";
+  content: "Aside";
   font-style: italic;
   font-size: 0.75em;
   font-weight: 300;
