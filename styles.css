@@ -134,7 +134,7 @@ aside {
   padding-left: 10px;
 }
 aside::before {
-  content: "Aside";
+  content: "As an aside...";
   font-style: italic;
   font-size: 0.75em;
   font-weight: 300;
