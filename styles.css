@@ -33,7 +33,7 @@ h1, h2, h3 {
   margin-bottom: 0;
 }
 h2 {
-  margin-top: 60px;
+  margin-top: 50px;
 }
 body p, body li {
   margin-bottom: 0;
@@ -99,7 +99,7 @@ a:active, a:hover {
   padding-bottom: 50px;
 }
 .writing-image {
-  margin: 2em 0;
+  margin: 1.25em 0;
 }
 .writing-image img {
   width: 100%;
