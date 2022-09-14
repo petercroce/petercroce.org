@@ -106,11 +106,6 @@ a.continue::after {
   content: "  ↝";
 }
 
-.writing {
-  line-height: 1.7;
-  border-bottom: 1px solid black;
-  padding-bottom: 50px;
-}
 .writing-image {
   margin: 1.25em 0;
 }
