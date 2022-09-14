@@ -26,19 +26,22 @@ body {
 @media (min-width:790px) {
   body {
     margin: 40px 40px 60px 40px;
+    width: 715px;
   }
 }
-h1, h2, h3 {
-  font-weight: 500;
-  letter-spacing: -.03em;
+h1 {
+  font-size: 48px;
+}
+h1, h2, h3, h4 {
+  letter-spacing: -.01em;
   line-height: 0.95;
+  margin-top: 50px;
   margin-bottom: 0;
 }
 h2 {
   margin-top: 50px;
 }
 body p, body li {
-  list-style-type: circle;
   margin-bottom: 0;
   font-weight: 300;
 }
@@ -59,16 +62,8 @@ body p, body li {
   }
 }
 
-.section {
-  margin-top: 60px;
-}
-.section:first-of-type {
-  margin-top: 0px;
-}
-@media (min-width:790px) {
-  .reading-section {
-    width: 715px;
-  }
+ul {
+  list-style-type: circle;
 }
 ul li, ol li {
   margin: 15px 0;
@@ -132,18 +127,19 @@ figcaption, time {
 aside {
   margin: 40px 0px 40px 10px;
   color: var(--primary65);
-  border-left: 2px solid var(--primary25);
+  border-left: 6px solid var(--primary65);
   padding-left: 20px;
   position: relative;
+
 }
 aside::before {
   background-color: var(--background);
   content: "as an aside";
   text-transform:uppercase;
-  font-size: 0.55em;
-  font-weight: 300;
-  left: -10px;
-  padding: 5px 0;
+  font-size: 0.7em;
+  font-weight: 600;
+  left: -12px;
+  padding: 10px 0;
   margin-top: 20px;
   position: absolute;
   writing-mode: vertical-lr;
