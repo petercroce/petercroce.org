@@ -150,3 +150,7 @@ aside::before {
     margin: 40px 0px 40px 10px;
   }
 }
+iframe {
+  margin: 20px 0;
+  border: none;
+}
