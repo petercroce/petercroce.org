@@ -7,9 +7,8 @@
       <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
       <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
       <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
-      <style data-styled="true" data-styled-version="5.3.5">.glrQqN{border:1px solid #2a172d;background-color:#fdfdfd;padding:15px 10px;position:fixed;top:0;left:0;font-size:16px;width:100%;}/*!sc*/
-@media (min-width:768px){.glrQqN{top:20px;left:20px;width:auto;}}/*!sc*/
-data-styled.g246[id="sc-kNjMHG"]{content:"glrQqN,"}/*!sc*/
+      <style data-styled="true" data-styled-version="5.3.5">.gjRTwv{border:1px solid #2a172d;background-color:#fdfdfd;padding:15px 10px;position:fixed;font-size:16px;top:20px;left:20px;margin-right:20px;}/*!sc*/
+data-styled.g246[id="sc-kNjMHG"]{content:"gjRTwv,"}/*!sc*/
 .iAlRAA{font-size:10px;font-weight:600;-webkit-letter-spacing:0.8px;-moz-letter-spacing:0.8px;-ms-letter-spacing:0.8px;letter-spacing:0.8px;line-height:11px;text-transform:uppercase;margin-bottom:5px;}/*!sc*/
 data-styled.g247[id="sc-hWlEnr"]{content:"iAlRAA,"}/*!sc*/
 .dyetzh{margin:0;font-size:18px;font-weight:bold;}/*!sc*/
@@ -57,12 +56,12 @@ data-styled.g45[id="sc-iTONeN"]{content:"gLGKIF,jilwRC,gAeqjl,bjZtFK,hUWnSB,gMWV
 data-styled.g46[id="sc-iAvgwm"]{content:"dUNIYA,"}/*!sc*/
 .erBLpf{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}/*!sc*/
 data-styled.g47[id="sc-efBctP"]{content:"erBLpf,"}/*!sc*/
-.dkxvsP{position:absolute;min-width:280px;top:unset;right:unset;left:20px;bottom:40px;z-index:1;width:auto;}/*!sc*/
-.dkxvsP .map-key-container{border:1px solid #2a172d;padding:12px 18px 9px;}/*!sc*/
-.dkxvsP .map-key-container .map-key-header{margin-bottom:10px !important;}/*!sc*/
-.dkxvsP .map-key-container .map-key-label{margin-bottom:8px !important;}/*!sc*/
-.dkxvsP .climate-zones-key-container{white-space:nowrap;box-sizing:content-box;border:1px solid #2a172d;padding:0px;padding-left:16px;width:auto;height:95px;overflow-x:hidden;}/*!sc*/
-data-styled.g245[id="sc-btIRyd"]{content:"dkxvsP,"}/*!sc*/
+.bcOyJl{position:absolute;min-width:280px;top:unset;right:unset;left:20px;bottom:20px;z-index:1;width:auto;}/*!sc*/
+.bcOyJl .map-key-container{border:1px solid #2a172d;padding:12px 18px 9px;}/*!sc*/
+.bcOyJl .map-key-container .map-key-header{margin-bottom:10px !important;}/*!sc*/
+.bcOyJl .map-key-container .map-key-label{margin-bottom:8px !important;}/*!sc*/
+.bcOyJl .climate-zones-key-container{white-space:nowrap;box-sizing:content-box;border:1px solid #2a172d;padding:0px;padding-left:16px;width:auto;height:95px;overflow-x:hidden;}/*!sc*/
+data-styled.g245[id="sc-btIRyd"]{content:"bcOyJl,"}/*!sc*/
 </style>
       <style>
         body {margin: 0; padding: 0; overflow: hidden; font-family: LinearSans, Arial, Helvetica, sans-serif; font-size: 16px; color: #2a172d; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
@@ -78,6 +77,29 @@ data-styled.g245[id="sc-btIRyd"]{content:"dkxvsP,"}/*!sc*/
         .mapboxgl-ctrl.mapboxgl-ctrl-group button { width: 35px; height: 35px; border: none; outline: 0; font-family: "LinearSans"; color: #1b1a1c; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px;}
         .mapboxgl-ctrl.mapboxgl-ctrl-group button:first-child { border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom: 1px solid rgba(151,151,151,0.5); border-bottom-left-radius: unset; border-bottom-right-radius: unset;}
         .mapboxgl-ctrl.mapboxgl-ctrl-group button:last-child {display: none;}
+        .mapboxgl-map {font: unset;}
+        .mapboxgl-ctrl-attrib-inner a {font-size: 10px; font-family: Helvetica Neue, Arial, Helvetica, sans-serif; line-height: 20px;}
+        .mapboxgl-ctrl-attrib.mapboxgl-compact {margin-bottom: 5px;}
+        .mapboxgl-ctrl-bottom-left {bottom: 67px; left: unset; right: 45px;}
+        @media (min-width: 641px) {
+          .mapboxgl-ctrl-bottom-left {right: 10px; bottom: 58px;}
+          .mapboxgl-ctrl {margin-bottom: 23px;}
+        }
+        @media (min-width: 1200px) { 
+          .mapboxgl-ctrl-bottom-left {bottom: 15px; left: unset; right: 10px;}
+          .mapboxgl-ctrl {margin-bottom: 10px;}
+        }
+        .mapboxgl-ctrl-bottom-right {right: 0; bottom: 0;}
+        @media (max-width: 1200px) {
+          .mapboxgl-ctrl-bottom-right{bottom: 52px;}
+        }
+        @media (max-width: 641px) {
+          .mapboxgl-ctrl-bottom-right {bottom: 67px;}
+        }
+        @media (min-width: 1200px) {
+          .mapboxgl-ctrl-bottom-right{right: 0; bottom: 0;}
+        }
+        .mapbox-improve-map {font-weight: 700;}
       </style>
       <!-- Open Graph / Facebook -->
       <meta property="og:title" content="Probable Futures Map" />
@@ -111,13 +133,13 @@ data-styled.g245[id="sc-btIRyd"]{content:"dkxvsP,"}/*!sc*/
     </head>
     <body>
       <div id="map"></div>
-      <div class="sc-kNjMHG glrQqN embeddable-map-header"><div class="sc-hWlEnr iAlRAA">Climate map</div><p class="sc-kKrQFk dyetzh">Days above 38°C (100°F)<!-- --> in a <!-- -->1<!-- -->°C warming scenario</p></div>,<div class="sc-btIRyd dkxvsP"><div class="sc-jIZahH gxtokL map-key-container"><div class="sc-himrzO juTlxt"><div class="sc-gXmSlM eRJGAn map-key-header"><span class="sc-cCsOjp dMvLog map-key-label">Number of days per year</span></div><div class="sc-ciZhAO gOsmne"><div class="sc-bZnhIo eA-dnqK map-key-bins-container"><div class="sc-jdAMXn dVPEJj map-key-bin-container"><div value="#515866" class="sc-iTONeN gLGKIF"></div><span class="sc-iAvgwm dUNIYA map-key-bin"><span>0</span></span></div><div class="sc-jdAMXn dVPEJj map-key-bin-container"><div value="#0ed5a3" class="sc-iTONeN jilwRC"></div><span class="sc-iAvgwm dUNIYA map-key-bin"><span class="sc-efBctP erBLpf">1<span class="dash">-</span>7</span></span></div><div class="sc-jdAMXn dVPEJj map-key-bin-container"><div value="#0099e4" class="sc-iTONeN gAeqjl"></div><span class="sc-iAvgwm dUNIYA map-key-bin"><span class="sc-efBctP erBLpf">8<span class="dash">-</span>30</span></span></div><div class="sc-jdAMXn dVPEJj map-key-bin-container"><div value="#8be1ff" class="sc-iTONeN bjZtFK"></div><span class="sc-iAvgwm dUNIYA map-key-bin"><span class="sc-efBctP erBLpf">31<span class="dash">-</span>90</span></span></div><div class="sc-jdAMXn dVPEJj map-key-bin-container"><div value="#ff45d0" class="sc-iTONeN hUWnSB"></div><span class="sc-iAvgwm dUNIYA map-key-bin"><span class="sc-efBctP erBLpf">91<span class="dash">-</span>180</span></span></div><div class="sc-jdAMXn dVPEJj map-key-bin-container"><div value="#d70066" class="sc-iTONeN gMWVPz"></div><span class="sc-iAvgwm dUNIYA map-key-bin"><span class="sc-efBctP erBLpf">181<span class="dash">-</span>365</span></span></div></div></div></div></div></div>
+      <div class="sc-kNjMHG gjRTwv embeddable-map-header"><div class="sc-hWlEnr iAlRAA">Climate map</div><p class="sc-kKrQFk dyetzh">Days above 38°C (100°F)<!-- --> in a <!-- -->1<!-- -->°C warming scenario</p></div>,<div class="sc-btIRyd bcOyJl"><div class="sc-jIZahH gxtokL map-key-container"><div class="sc-himrzO juTlxt"><div class="sc-gXmSlM eRJGAn map-key-header"><span class="sc-cCsOjp dMvLog map-key-label">Number of days per year</span></div><div class="sc-ciZhAO gOsmne"><div class="sc-bZnhIo eA-dnqK map-key-bins-container"><div class="sc-jdAMXn dVPEJj map-key-bin-container"><div value="#515866" class="sc-iTONeN gLGKIF"></div><span class="sc-iAvgwm dUNIYA map-key-bin"><span>0</span></span></div><div class="sc-jdAMXn dVPEJj map-key-bin-container"><div value="#0ed5a3" class="sc-iTONeN jilwRC"></div><span class="sc-iAvgwm dUNIYA map-key-bin"><span class="sc-efBctP erBLpf">1<span class="dash">-</span>7</span></span></div><div class="sc-jdAMXn dVPEJj map-key-bin-container"><div value="#0099e4" class="sc-iTONeN gAeqjl"></div><span class="sc-iAvgwm dUNIYA map-key-bin"><span class="sc-efBctP erBLpf">8<span class="dash">-</span>30</span></span></div><div class="sc-jdAMXn dVPEJj map-key-bin-container"><div value="#8be1ff" class="sc-iTONeN bjZtFK"></div><span class="sc-iAvgwm dUNIYA map-key-bin"><span class="sc-efBctP erBLpf">31<span class="dash">-</span>90</span></span></div><div class="sc-jdAMXn dVPEJj map-key-bin-container"><div value="#ff45d0" class="sc-iTONeN hUWnSB"></div><span class="sc-iAvgwm dUNIYA map-key-bin"><span class="sc-efBctP erBLpf">91<span class="dash">-</span>180</span></span></div><div class="sc-jdAMXn dVPEJj map-key-bin-container"><div value="#d70066" class="sc-iTONeN gMWVPz"></div><span class="sc-iAvgwm dUNIYA map-key-bin"><span class="sc-efBctP erBLpf">181<span class="dash">-</span>365</span></span></div></div></div></div></div></div>
       <script>
         const { dataLayerPaintProperties, binLabelsInCAndF } = {"dataLayerPaintProperties":["step",["get","data_1c_mid"],"#f5f5f5",-99998,"#e6e6e6",-88887,"#515866",1,"#0ed5a3",8,"#0099e4",31,"#8be1ff",91,"#ff45d0",181,"#d70066"],"tempUnit":"°C","binLabelsInCAndF":[[],[]]};
         mapboxgl.accessToken = 'pk.eyJ1IjoicHJvYmFibGVmdXR1cmVzIiwiYSI6ImNsaThxcXF1YjA5ajgzZHBnemJtNGptMnAifQ.PnPUBROiVfA8wwulm3lghQ';
         const map = new mapboxgl.Map({ container: 'map', 
-        style: 'mapbox://styles/probablefutures/clhyrwhlt02ae01qu6uojdjhx', center: [31.223558068119814,
-          30.035709879056427], 
+        style: 'mapbox://styles/probablefutures/clhyrwhlt02ae01qu6uojdjhx', center: [31.2544,
+          30.066], 
         zoom: 10, minZoom: 2.2, maxZoom: 10, projection: 'mercator'});
         map.addControl(new mapboxgl.NavigationControl());
         map.on("style.load", () => {
