@@ -40,8 +40,8 @@ h1, h2, h3, h4 {
   margin-top: 50px;
   margin-bottom: 0;
 }
-h2 {
-  margin-top: 50px;
+h3, h4 {
+  margin-top: 30px;
 }
 body p, body li {
   margin-bottom: 0;
