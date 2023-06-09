@@ -80,25 +80,14 @@ data-styled.g245[id="sc-btIRyd"]{content:"bcOyJl,"}/*!sc*/
         .mapboxgl-map {font: unset;}
         .mapboxgl-ctrl-attrib-inner a {font-size: 10px; font-family: Helvetica Neue, Arial, Helvetica, sans-serif; line-height: 20px;}
         .mapboxgl-ctrl-attrib.mapboxgl-compact {margin-bottom: 5px;}
-        .mapboxgl-ctrl-bottom-left {bottom: 67px; left: unset; right: 45px;}
+        .mapboxgl-ctrl-bottom-left {left: unset; right: 45px; z-index:1;}
         @media (min-width: 641px) {
-          .mapboxgl-ctrl-bottom-left {right: 10px; bottom: 58px;}
-          .mapboxgl-ctrl {margin-bottom: 23px;}
+          .mapboxgl-ctrl-bottom-left {right: 10px; bottom: 15px;}
         }
         @media (min-width: 1200px) { 
           .mapboxgl-ctrl-bottom-left {bottom: 15px; left: unset; right: 10px;}
-          .mapboxgl-ctrl {margin-bottom: 10px;}
         }
         .mapboxgl-ctrl-bottom-right {right: 0; bottom: 0;}
-        @media (max-width: 1200px) {
-          .mapboxgl-ctrl-bottom-right{bottom: 52px;}
-        }
-        @media (max-width: 641px) {
-          .mapboxgl-ctrl-bottom-right {bottom: 67px;}
-        }
-        @media (min-width: 1200px) {
-          .mapboxgl-ctrl-bottom-right{right: 0; bottom: 0;}
-        }
         .mapbox-improve-map {font-weight: 700;}
       </style>
       <!-- Open Graph / Facebook -->
@@ -138,8 +127,8 @@ data-styled.g245[id="sc-btIRyd"]{content:"bcOyJl,"}/*!sc*/
         const { dataLayerPaintProperties, binLabelsInCAndF } = {"dataLayerPaintProperties":["step",["get","data_1c_mid"],"#f5f5f5",-99998,"#e6e6e6",-88887,"#515866",1,"#0ed5a3",8,"#0099e4",31,"#8be1ff",91,"#ff45d0",181,"#d70066"],"tempUnit":"°C","binLabelsInCAndF":[[],[]]};
         mapboxgl.accessToken = 'pk.eyJ1IjoicHJvYmFibGVmdXR1cmVzIiwiYSI6ImNsaThxcXF1YjA5ajgzZHBnemJtNGptMnAifQ.PnPUBROiVfA8wwulm3lghQ';
         const map = new mapboxgl.Map({ container: 'map', 
-        style: 'mapbox://styles/probablefutures/clhyrwhlt02ae01qu6uojdjhx', center: [31.2544,
-          30.066], 
+        style: 'mapbox://styles/probablefutures/cle5ik4xw001401qtmx3iupap', center: [31.25028461953923,
+          30.027341859657014], 
         zoom: 10, minZoom: 2.2, maxZoom: 10, projection: 'mercator'});
         map.addControl(new mapboxgl.NavigationControl());
         map.on("style.load", () => {
