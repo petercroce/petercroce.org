@@ -1,0 +1,376 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Probable Futures Map</title>
+      <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+      <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.4.0/mapbox-gl-compare.css" type="text/css">
+      <style data-styled="true" data-styled-version="5.3.5">.fuVdDs{border:1px solid #2a172d;background-color:#fdfdfd;padding:15px 10px;position:relative;font-size:16px;top:20px;left:20px;margin-right:40px;display:inline-block;z-index:1;}/*!sc*/
+data-styled.g259[id="sc-cxalrY"]{content:"fuVdDs,"}/*!sc*/
+.feZWmt{font-size:10px;font-weight:600;-webkit-letter-spacing:0.8px;-moz-letter-spacing:0.8px;-ms-letter-spacing:0.8px;letter-spacing:0.8px;line-height:11px;text-transform:uppercase;margin-bottom:5px;}/*!sc*/
+data-styled.g260[id="sc-boKtkb"]{content:"feZWmt,"}/*!sc*/
+.iWfryR{margin:0;font-size:18px;font-weight:bold;}/*!sc*/
+data-styled.g261[id="sc-iLIByi"]{content:"iWfryR,"}/*!sc*/
+</style>
+<style data-styled="true" data-styled-version="5.3.5">.dPEgnT{background-color:#fdfdfd;border-bottom:1px solid #2a172d;padding:12px 18px 9px;}/*!sc*/
+data-styled.g36[id="sc-kLLXSd"]{content:"dPEgnT,"}/*!sc*/
+.humkvi{display:inline-block;width:100%;}/*!sc*/
+data-styled.g37[id="sc-ikZpkk"]{content:"humkvi,"}/*!sc*/
+.fmokJr{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:0px;}/*!sc*/
+@media (min-width:1200px){.fmokJr{margin-bottom:10px;}}/*!sc*/
+data-styled.g38[id="sc-jIZahH"]{content:"fmokJr,"}/*!sc*/
+.lhDdCJ{display:block;font-size:10px;color:#2a172d;font-weight:600;-webkit-letter-spacing:0.8px;-moz-letter-spacing:0.8px;-ms-letter-spacing:0.8px;letter-spacing:0.8px;line-height:11px;text-transform:uppercase;margin-bottom:5px;}/*!sc*/
+@media (min-width:1200px){.lhDdCJ{margin-bottom:8px;}}/*!sc*/
+data-styled.g39[id="sc-himrzO"]{content:"lhDdCJ,"}/*!sc*/
+.hBurZs{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;}/*!sc*/
+data-styled.g40[id="sc-gXmSlM"]{content:"hBurZs,"}/*!sc*/
+.dqENPt{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin-right:2px;min-width:48px;-webkit-flex:1;-ms-flex:1;flex:1;max-width:120px;}/*!sc*/
+@media (orientation:landscape){.dqENPt{min-width:48px;}}/*!sc*/
+@media (min-width:768px){.dqENPt{min-width:47px;}}/*!sc*/
+@media (min-width:1200px){.dqENPt{margin-right:3px;min-width:80px;}}/*!sc*/
+data-styled.g41[id="sc-cCsOjp"]{content:"dqENPt,"}/*!sc*/
+.iOLCkY{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:flex-start;-webkit-box-align:flex-start;-ms-flex-align:flex-start;align-items:flex-start;margin-right:5px;width:100%;}/*!sc*/
+@media (min-width:768px){.iOLCkY{margin-right:13px;}}/*!sc*/
+@media (min-width:1200px){.iOLCkY{margin-right:0;}}/*!sc*/
+data-styled.g42[id="sc-ciZhAO"]{content:"iOLCkY,"}/*!sc*/
+.gsFuom{height:12px;background-color:#515866;}/*!sc*/
+@media (min-width:1200px){.gsFuom{height:14px;}}/*!sc*/
+.dnSoXh{height:12px;background-color:#0ed5a3;}/*!sc*/
+@media (min-width:1200px){.dnSoXh{height:14px;}}/*!sc*/
+.jKfnZq{height:12px;background-color:#0099e4;}/*!sc*/
+@media (min-width:1200px){.jKfnZq{height:14px;}}/*!sc*/
+.cKYvSd{height:12px;background-color:#8be1ff;}/*!sc*/
+@media (min-width:1200px){.cKYvSd{height:14px;}}/*!sc*/
+.lIrK{height:12px;background-color:#ff45d0;}/*!sc*/
+@media (min-width:1200px){.lIrK{height:14px;}}/*!sc*/
+.gtWesw{height:12px;background-color:#d70066;}/*!sc*/
+@media (min-width:1200px){.gtWesw{height:14px;}}/*!sc*/
+data-styled.g43[id="sc-jdAMXn"]{content:"gsFuom,dnSoXh,jKfnZq,cKYvSd,lIrK,gtWesw,"}/*!sc*/
+.biKsrL{font-family:"RelativeMono",Courier,monospace;color:#2a172d;font-size:9px;-webkit-letter-spacing:0;-moz-letter-spacing:0;-ms-letter-spacing:0;letter-spacing:0;line-height:16px;text-align:center;margin-top:2px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-evenly;-webkit-justify-content:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly;}/*!sc*/
+.biKsrL .dash{font-size:13px;}/*!sc*/
+@media (orientation:landscape){.biKsrL{font-size:10px;}}/*!sc*/
+@media (min-width:768px){.biKsrL{font-size:9px;}}/*!sc*/
+@media (min-width:1200px){.biKsrL{font-size:13px;margin-top:4px;}}/*!sc*/
+data-styled.g44[id="sc-bZnhIo"]{content:"biKsrL,"}/*!sc*/
+.fYmatu{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}/*!sc*/
+data-styled.g45[id="sc-iTONeN"]{content:"fYmatu,"}/*!sc*/
+.dxunyM{position:absolute;min-width:280px;top:unset;right:unset;left:20px;bottom:20px;z-index:1;width:auto;font-family:LinearSans,Arial,Helvetica,sans-serif;}/*!sc*/
+.dxunyM .map-key-container{border:1px solid #2a172d;padding:12px 18px 9px;}/*!sc*/
+.dxunyM .map-key-container .map-key-header{margin-bottom:10px !important;}/*!sc*/
+.dxunyM .map-key-container .map-key-label{margin-bottom:8px !important;}/*!sc*/
+.dxunyM .climate-zones-key-container{white-space:nowrap;box-sizing:content-box;border:1px solid #2a172d;padding:0px;padding-left:16px;width:auto;height:95px;overflow-x:hidden;}/*!sc*/
+data-styled.g258[id="sc-gpxMCN"]{content:"dxunyM,"}/*!sc*/
+</style>
+<style data-styled="true" data-styled-version="5.3.5">.SWBKO{position:absolute;left:0;padding:0 5px;background-color:rgba(255,255,255,0.5);font-size:12px;font-family:Helvetica Neue,Arial,Helvetica,sans-serif;line-height:20px;color:rgba(0,0,0,0.75);z-index:3;cursor:pointer;-webkit-text-decoration:none;text-decoration:none;bottom:0;}/*!sc*/
+data-styled.g262[id="sc-gLTcDU"]{content:"SWBKO,"}/*!sc*/
+</style>
+      <style>
+        body {margin: 0; padding: 0; font-family: LinearSans, Arial, Helvetica, sans-serif; font-size: 16px; color: #2a172d; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;overflow-x: hidden;}
+        a {color: #1c101e;}
+        a:hover {color: #851fff;}
+        @font-face { font-family: "LinearSans"; src: url("https://pf-fonts.s3.us-west-2.amazonaws.com/LinearSans-Regular.otf") format("opentype"); font-weight: 400; font-style: normal;}
+        @font-face { font-family: "LinearSans"; src: url("https://pf-fonts.s3.us-west-2.amazonaws.com/linear-sans-semibold.eot"); src: url("https://pf-fonts.s3.us-west-2.amazonaws.com/linear-sans-semibold.eot?#iefix") format("embedded-opentype"), url("https://pf-fonts.s3.us-west-2.amazonaws.com/linear-sans-semibold.woff2") format("woff2"), url("https://pf-fonts.s3.us-west-2.amazonaws.com/linear-sans-semibold.woff") format("woff"); font-weight: 600; font-style: normal;}
+        @font-face { font-family: "RelativeMono"; src: url("https://pf-fonts.s3.us-west-2.amazonaws.com/relative-mono-10-pitch-pro.otf") format("opentype"); font-weight: 400; font-style: normal;}
+        @font-face { font-family: "Cambon"; src: url("https://pf-fonts.s3.us-west-2.amazonaws.com/Cambon-Regular.otf") format("opentype"); font-weight: 400; font-style: normal;}
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+        .mapboxgl-ctrl-top-right { top: 50%; transform: translateY(-50%);}
+        .mapboxgl-ctrl.mapboxgl-ctrl-group { box-shadow: 0 3px 5px 0 rgb(56 22 63 / 50%); border-radius: 6px; background-color: #fdfdfd; margin-right: 20px;} 
+        .mapboxgl-ctrl.mapboxgl-ctrl-group button { width: 35px; height: 35px; border: none; outline: 0; font-family: "LinearSans"; color: #1b1a1c; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px;}
+        .mapboxgl-ctrl.mapboxgl-ctrl-group button:first-child { border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom: 1px solid rgba(151,151,151,0.5); border-bottom-left-radius: unset; border-bottom-right-radius: unset;}
+        .mapboxgl-ctrl.mapboxgl-ctrl-group button:last-child {display: none;}
+        .mapboxgl-map {font-family: LinearSans, Arial, Helvetica, sans-serif;}
+        .mapboxgl-ctrl-attrib-inner a {font-size: 10px; font-family: Helvetica Neue, Arial, Helvetica, sans-serif; line-height: 20px;}
+        .mapboxgl-ctrl-attrib.mapboxgl-compact {margin-bottom: 5px;}
+        .mapboxgl-ctrl-bottom-left {left: unset; right: 45px; z-index:1;}
+        @media (min-width: 641px) {.mapboxgl-ctrl-bottom-left {right: 10px; bottom: 15px;}}
+        @media (min-width: 1200px) {.mapboxgl-ctrl-bottom-left {bottom: 15px; left: unset; right: 10px;}}
+        .mapboxgl-ctrl-bottom-right {right: 0; bottom: 0;}
+        .mapbox-improve-map {font-weight: 700;}
+        /*popover*/
+        .popover-title {display: block;max-width: 200px;color: #1c101e;font-size: 10px;font-weight: 600;letter-spacing: 0.8px;line-height: 14px;margin-right: 25px;}
+        .popover-title:first-letter{text-transform: uppercase;}
+        .popover-description{font-weight: 400;font-size: 10px;max-width: 209px;line-height: 20px;}
+        .popover-no-data {display: block;color: #000000;font-weight: 600;letter-spacing: 0;text-align: center;margin-top: 10px;margin-bottom: 16px;font-size: 20px;}
+        .popover-row-container {display: flex;justify-content: center;margin-top: 5px;padding-bottom: 16px;text-align: center;gap: 30px;}
+        .popover-value-container {display: flex;flex-direction: column;align-items: center;justify-content: space-around;}
+        .popover-value {display: block;margin: 18px 0 4px;color: #000000;font-weight: 600;letter-spacing: 0;}
+        .popover-label {display: block;width: 49px;color: #000000;font-size: 10px;letter-spacing: 0;line-height: 10px;text-align: center;text-transform: capitalize;}
+        .popover-mean-frequency-text {display: block;color: #000000;font-weight: 600;letter-spacing: 0;font-size: 20px;}
+        .popover-avg-value {display: block;color: #000000;font-weight: 600;letter-spacing: 0;}
+        .mapboxgl-popup-content{background-color: #fdfdfd;border-radius: 0;border: 1px solid #2a172d;padding: 16px 16px 0;box-sizing: border-box;box-shadow: none;}
+        .mapboxgl-popup-close-button{position: absolute;top: 8px;right: 12px;font-size: 25px;width: 20px;height: 20px;}
+        .mapboxgl-popup-close-button:hover{background: transparent;}
+        .mapboxgl-popup-tip{width: 12px;height: 12px;transform: rotate(45deg);background-color: #fdfdfd;border-width: 1px !important;margin-bottom: -8px;border-left: 1px solid #2a172d;border-top: 1px solid #2a172d!important;box-sizing: content-box;align-self: center;border-bottom-color: #fff;}
+        .embeddable-map-header{font-family: LinearSans, Arial, Helvetica, sans-serif;}
+        #beforeMap, #afterMap {overflow: hidden;position: absolute;height: 100%;z-index: 1;user-select: none;width: 100%;}
+        .comparison-container {overflow: hidden;position: relative;height: 100%;z-index: 1;}
+        .mapboxgl-compare {background-color: rgb(42, 23, 45);height: 100%;position: absolute;width: 2px;z-index: 1;}
+        .mapboxgl-compare .compare-swiper-vertical {background-color: #1b1a1c;background-repeat: no-repeat, no-repeat;background-size: 41px;border-radius: 50%;box-shadow: #f8f9f3 0 0 0 2px inset;color: #f8f9f3;cursor: ew-resize;display: inline-block;height: 40px;left: -20px;margin: -20px 1px 0;position: absolute;top: 50%;width: 40px;}
+        .mapboxgl-compare .compare-swiper-vertical::before,
+        .mapboxgl-compare .compare-swiper-vertical::after {background-color: #1b1a1c;border: 1px solid #fefffc;color: #f8f9f3;display: block;font-family: RelativeMono,monospace;font-size: 15px;line-height: 1;padding: 2px 0 4px 0;position: absolute;text-align: center;top: 10px;width: 62px;}
+        .mapboxgl-compare .compare-swiper-vertical::before {content: "0.5°C";left: -71px;}
+        .mapboxgl-compare .compare-swiper-vertical::after {content: "2°C";right: -71px;}
+      </style>
+      <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+      <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.4.0/mapbox-gl-compare.js"></script>
+      <!-- Open Graph / Facebook -->
+      <meta property="og:title" content="Probable Futures Map" />
+      <meta
+        property="og:description"
+        content="Probable Futures aims to increase the chances that the future is good. We offer useful tools to visualize climate change along with stories and insights to help people understand what those changes mean."
+        data-react-helmet="true"
+      />
+      <meta property="og:type" content="website" />
+      <meta
+        property="og:image"
+        content="http://probablefutures.org/assets/images/pf-gradient-1.jpg"
+      />
+      <meta property="og:image:width" content="1920 " />
+      <meta property="og:image:height" content="1080" />
+      <meta property="og:url" content="http://probablefutures.org" />
+  
+      <!-- Twitter -->
+      <meta name="twitter:title" content="Probable Futures Map" />
+      <meta name="twitter:card" content="summary" />
+      <meta
+        name="twitter:description"
+        content="Probable Futures aims to increase the chances that the future is good. We offer useful tools to visualize climate change along with stories and insights to help people understand what those changes mean."
+        data-react-helmet="true"
+      />
+      <meta
+        property="twitter:image"
+        content="http://probablefutures.org/assets/images/pf-gradient-1.jpg"
+      />
+      <meta name="twitter:url" content="http://probablefutures.org" />
+    </head>
+    <body>
+      <div id="map" style="display:none;"></div>
+      <div id="comparison-container" style="display:block;" ><div id="beforeMap"></div><div id="afterMap"></div></div>
+      <div class="sc-cxalrY fuVdDs embeddable-map-header"><div class="sc-boKtkb feZWmt">Climate map</div><p class="sc-iLIByi iWfryR">Days above 38°C (100°F)</p></div>,<div class="sc-gpxMCN dxunyM"><div class="sc-kLLXSd dPEgnT map-key-container"><div class="sc-ikZpkk humkvi"><div class="sc-jIZahH fmokJr map-key-header"><span class="sc-himrzO lhDdCJ map-key-label">Number of days per year</span></div><div class="sc-gXmSlM hBurZs"><div class="sc-ciZhAO iOLCkY map-key-bins-container"><div class="sc-cCsOjp dqENPt map-key-bin-container"><div value="#515866" class="sc-jdAMXn gsFuom"></div><span class="sc-bZnhIo biKsrL map-key-bin"><span>0</span></span></div><div class="sc-cCsOjp dqENPt map-key-bin-container"><div value="#0ed5a3" class="sc-jdAMXn dnSoXh"></div><span class="sc-bZnhIo biKsrL map-key-bin"><span class="sc-iTONeN fYmatu">1<span class="dash">-</span>7</span></span></div><div class="sc-cCsOjp dqENPt map-key-bin-container"><div value="#0099e4" class="sc-jdAMXn jKfnZq"></div><span class="sc-bZnhIo biKsrL map-key-bin"><span class="sc-iTONeN fYmatu">8<span class="dash">-</span>30</span></span></div><div class="sc-cCsOjp dqENPt map-key-bin-container"><div value="#8be1ff" class="sc-jdAMXn cKYvSd"></div><span class="sc-bZnhIo biKsrL map-key-bin"><span class="sc-iTONeN fYmatu">31<span class="dash">-</span>90</span></span></div><div class="sc-cCsOjp dqENPt map-key-bin-container"><div value="#ff45d0" class="sc-jdAMXn lIrK"></div><span class="sc-bZnhIo biKsrL map-key-bin"><span class="sc-iTONeN fYmatu">91<span class="dash">-</span>180</span></span></div><div class="sc-cCsOjp dqENPt map-key-bin-container"><div value="#d70066" class="sc-jdAMXn gtWesw"></div><span class="sc-bZnhIo biKsrL map-key-bin"><span class="sc-iTONeN fYmatu">181<span class="dash">-</span>365</span></span></div></div></div></div></div></div>,<a target="_blank" rel="noopener noreferrer" href="https://probablefutures.org/map-version-history" class="sc-gLTcDU SWBKO">Probable Futures map v3</a>
+      <script>
+        (function() {
+          function cToF(value) {
+            return Math.floor((value * 9) / 5 + 32);
+          }
+          function convertCToF(values) {
+            if (values === undefined) return values;
+            return Array.isArray(values) ? values.map(cToF) : cToF(values);
+          }
+          let datasetsWithMidValuesOnly = [40612, 40613, 40701, 40702, 40901];
+          function getLabelByValue(value,binningType,binningLabels,stops) {
+            if (binningType === "range") {
+              let labelIdx = -1;
+              stops.forEach(function(stop, index){
+                if (labelIdx === -1) {
+                  if (index === 0 && value < stop) labelIdx = 0;
+                  else {
+                    let range = [stops[index - 1], stop];
+                    if (value >= range[0] && value < range[1]) labelIdx = index;
+                  }
+                }
+              });
+              if (labelIdx==-1) {
+                if(value>=stops[stops.length - 1]) {
+                  labelIdx = stops.length;  
+                }
+              }
+              return binningLabels[labelIdx];
+            } else if (binningType === "number") {
+              let labelIdx = 0;
+              stops.forEach(function(stop, index){if (stop === value) labelIdx = index + 1;});
+              return binningLabels[labelIdx];
+            }
+          }
+          let pfLayerIds = ["region-as-oc-1","region-as-oc-2","region-as-oc-3","region-as-oc-4","region-as-oc-5",
+          "region-as-oc-6","region-as-oc-7","region-as-oc-8","region-eu-af-1","region-eu-af-2","region-eu-af-3",
+          "region-eu-af-4","region-eu-af-5","region-eu-af-6","region-eu-af-7","region-eu-af-8","region-na-sa-1",
+          "region-na-sa-2","region-na-sa-3","region-na-sa-4","region-na-sa-5","region-na-sa-6","region-eu-af-9",
+          "region-na-sa-7", "water"];
+          let { dataLayerPaintProperties, binLabelsInCAndF, dataKey, degrees } = {"dataLayerPaintProperties":["step",["get","data_1c_mid"],"#f5f5f5",-99998,"#e6e6e6",-88887,"#515866",1,"#0ed5a3",8,"#0099e4",31,"#8be1ff",91,"#ff45d0",181,"#d70066"],"tempUnit":"°C","binLabelsInCAndF":[[],[]],"degrees":1,"dataKey":"data_1c"};
+          let dataset = {"__typename":"PfMap","mapStyleId":"clhyrwhlt02ae01qu6uojdjhx","name":"Days above 38°C (100°F)","stops":[1,8,31,91,181],"percentageStops":null,"binHexColors":["#515866","#0ed5a3","#0099e4","#8be1ff","#ff45d0","#d70066"],"isDiff":false,"step":1,"binLabels":null,"binningType":"range","slug":"days_above_38c","mapVersion":3,"isLatest":true,"dataLabels":["5th percentile","average","95th percentile"],"methodUsedForMid":"mean","dataset":{"__typename":"PfDataset","id":40106,"name":"Number of days maximum temperature above 38°C (100°F)","unit":"days","minValue":0,"maxValue":365,"dataVariables":null,"pfDatasetUnitByUnit":{"__typename":"PfDatasetUnit","unitLong":"Number of days per year"},"pfDatasetParentCategoryByParentCategory":{"__typename":"PfDatasetParentCategory","name":"heat","label":"Maps of temperature"},"subCategory":"increasing heat"}};
+          mapboxgl.accessToken = 'pk.eyJ1IjoicHJvYmFibGVmdXR1cmVzIiwiYSI6ImNsaThxcXF1YjA5ajgzZHBnemJtNGptMnAifQ.PnPUBROiVfA8wwulm3lghQ';
+          let currentTemp = '°C';
+          let climateZoneDescs = undefined;
+          let showComparisonMaps = true;
+          let map, beforeMap, afterMap;
+          let features = null, longitude = null, latitude = null, popup = null, mapClicked;
+          if(showComparisonMaps) {
+            let {dataKeyBefore, dataKeyAfter,dataLayerPaintPropertiesBefore, dataLayerPaintPropertiesAfter} = {"show":true,"dataKeyBefore":"data_baseline","dataKeyAfter":"data_2c","dataLayerPaintPropertiesBefore":["step",["get","data_baseline_mid"],"#f5f5f5",-99998,"#e6e6e6",-88887,"#515866",1,"#0ed5a3",8,"#0099e4",31,"#8be1ff",91,"#ff45d0",181,"#d70066"],"dataLayerPaintPropertiesAfter":["step",["get","data_2c_mid"],"#f5f5f5",-99998,"#e6e6e6",-88887,"#515866",1,"#0ed5a3",8,"#0099e4",31,"#8be1ff",91,"#ff45d0",181,"#d70066"],"degreesBefore":0.5,"degreesAfter":2};
+            beforeMap = new mapboxgl.Map({ 
+              container: 'beforeMap', style: 'mapbox://styles/probablefutures/clhyrwhlt02ae01qu6uojdjhx', 
+              center: [30.7582906878024,22.36349865658036], 
+              zoom: 2.2, minZoom: 2.2, maxZoom: 10, projection: 'mercator'});
+            beforeMap.addControl(new mapboxgl.NavigationControl());
+            beforeMap.on("style.load", function() {
+              let { layers } = beforeMap?.getStyle();
+              layers.forEach(function({id, type}){
+                if (id.includes('region-')) {
+                  beforeMap?.setPaintProperty(id, "fill-color", dataLayerPaintPropertiesBefore);
+                  beforeMap?.setPaintProperty(id, "fill-antialias", ["step", ["zoom"], false, 6, true]);
+                  beforeMap?.setPaintProperty(id, "fill-outline-color", "#ffffff");
+                } else if (type === "symbol" || id.includes("road")) beforeMap.setLayoutProperty(id, "visibility", "visible");
+              });
+            });
+            afterMap = new mapboxgl.Map({ 
+              container: 'afterMap', style: 'mapbox://styles/probablefutures/clhyrwhlt02ae01qu6uojdjhx', 
+              center: [30.7582906878024,22.36349865658036], 
+              zoom: 2.2, minZoom: 2.2, maxZoom: 10, projection: 'mercator'});
+            afterMap.addControl(new mapboxgl.NavigationControl());
+            afterMap.on("style.load", function() {
+              let { layers } = afterMap?.getStyle();
+              layers.forEach(function({id, type}) {
+                if (id.includes('region-')) {
+                  afterMap?.setPaintProperty(id, "fill-color", dataLayerPaintPropertiesAfter);
+                  afterMap?.setPaintProperty(id, "fill-antialias", ["step", ["zoom"], false, 6, true]);
+                  afterMap?.setPaintProperty(id, "fill-outline-color", "#ffffff");
+                } else if (type === "symbol" || id.includes("road")) afterMap.setLayoutProperty(id, "visibility", "visible");
+              });
+            });
+            beforeMap.on('click', pfLayerIds , function(e) {
+              features = e.features;
+              latitude = e.lngLat.lat;
+              longitude = e.lngLat.lng;
+              mapClicked = "before";
+              handleMapClick(beforeMap, dataKeyBefore);
+            });
+            afterMap.on('click', pfLayerIds, function(e) {
+              features = e.features;
+              latitude = e.lngLat.lat;
+              longitude = e.lngLat.lng;
+              mapClicked = "after";
+              handleMapClick(afterMap, dataKeyAfter);
+            });
+            let compareMap = new mapboxgl.Compare(beforeMap, afterMap, "#comparison-container", {});
+          }
+          else {
+            map = new mapboxgl.Map({ 
+              container: 'map', style: 'mapbox://styles/probablefutures/clhyrwhlt02ae01qu6uojdjhx', 
+              center: [30.7582906878024,22.36349865658036], 
+              zoom: 2.2, minZoom: 2.2, maxZoom: 10, projection: 'mercator'});
+            map.addControl(new mapboxgl.NavigationControl());
+            map.on("style.load", function() {
+              let { layers } = map?.getStyle();
+              layers.forEach(function({id, type}) {
+                if (id.includes('region-')) {
+                  map?.setPaintProperty(id, "fill-color", dataLayerPaintProperties);
+                  map?.setPaintProperty(id, "fill-antialias", ["step", ["zoom"], false, 6, true]);
+                  map?.setPaintProperty(id, "fill-outline-color", "#ffffff");
+                } else if (type === "symbol" || id.includes("road")) map.setLayoutProperty(id, "visibility", "visible");
+              });
+            });
+            map.on('click', pfLayerIds, function(e) {
+              features = e.features;
+              latitude = e.lngLat.lat;
+              longitude = e.lngLat.lng;
+              handleMapClick(map, dataKey);
+            });
+          }
+          function handleMapClick(map, key) {
+            if (popup) popup.remove();
+            let dataFeature = features ? features.find(function(feature){ return feature.layer.id.includes("region-")}): undefined;
+            let selectedData = {
+              mid:  dataFeature?.properties[key + "_mid"],
+              low: dataFeature?.properties[key + "_low"],
+              high: dataFeature?.properties[key + "_high"]
+            };
+            let isTemp = binLabelsInCAndF.length > 0;
+            let showInF = isTemp && currentTemp === "°F";
+            let isFrequent = dataset?.dataset.unit === "x as frequent";
+            let showBaselineDetails = dataset.isDiff && degrees !== 0 && !isFrequent;
+            let isMidValid = selectedData.mid !== undefined && selectedData.mid !== -99999 && selectedData.mid !== -88888;
+            let title = "";
+            if (dataset.dataset.unit === "class" && dataset.binLabels && isMidValid) title = getLabelByValue(selectedData.mid,dataset.binningType,dataset.binLabels,dataset.stops) || "";
+            else if (datasetsWithMidValuesOnly.indexOf(dataset.dataset.id) !== -1) title = "Expected outcome";
+            else title = "Expected range of outcomes";
+            let result = `<div><div class="popover-title">${title}</div>`;
+            if (!isMidValid) result += "<span class='popover-no-data'>No data here</span>";
+            else if(dataset.dataset.unit === "class") {
+              let climateZone = getLabelByValue(selectedData.mid,dataset.binningType,dataset.binLabels,dataset.stops);
+              let climateZoneDesc = "";
+              if (climateZone && climateZoneDescs) {
+                let name = "description_" + climateZone.toLowerCase().replace(/-|\s/g, "_");
+                climateZoneDesc = climateZoneDescs[name];
+              }
+              result += `<div class='popover-description'>${climateZoneDesc}</div>`;
+            }
+            else {
+              let lowValue = showInF ? convertCToF(selectedData.low) : selectedData.low;
+              let highValue = showInF ? convertCToF(selectedData.high) : selectedData.high;
+              let meanValue = showInF ? convertCToF(selectedData.mid) : selectedData.mid;
+              let showMidValueLabel = !dataset?.isDiff || lowValue !== undefined || highValue !== undefined;
+              function getMidValue() {
+                if (meanValue === undefined) return null;
+                let prefix = "", suffix = "";
+                if (isFrequent && meanValue >= 1) suffix = "x";
+                else if (showBaselineDetails && meanValue > 0) prefix = "+";
+                return prefix + meanValue + suffix;
+              }
+              function getValue(value, getter) {
+                if (dataset?.binLabels) return getLabelByValue(value,dataset.binningType,dataset.binLabels,dataset.stops);
+                else if (getter) return getter();
+                return showBaselineDetails && value > 0 ? `+${value}` : value;
+              }
+              let popoverContent = "<div class='popover-row-container'>";
+              let fontSize = dataset.binLabels ? "14px;" : "20px;";
+              let fontSizeMid = dataset.binLabels ? "20px;" : "40px;";
+              if(lowValue !== undefined) popoverContent += `<div class="popover-value-container"><span style="font-size:${fontSize}" class="popover-value">${getValue(lowValue)}</span><span class="popover-label">${dataset?.dataLabels[0]}</span></div>`;
+              if(meanValue !== undefined) {
+                popoverContent += "<div class='popover-value-container'>";
+                if (isFrequent && meanValue < 1) popoverContent += "<span class='popover-mean-frequency-text'>Less frequent</span>";
+                else popoverContent += `<span style="font-size:${fontSizeMid}" class="popover-avg-value">${getValue(meanValue, getMidValue)}</span>`
+                if(showMidValueLabel) popoverContent+= `<span class="popover-label">${dataset?.dataLabels[1]}</span>`;
+                popoverContent += "</div>";
+              }
+              if(highValue !== undefined) popoverContent += `<div class="popover-value-container"><span style="font-size:${fontSize}" class="popover-value">${getValue(highValue)}</span><span class="popover-label">${dataset?.dataLabels[2]}</span></div>`;
+              popoverContent += "</div>";
+              result += popoverContent;
+            }
+            result += "</div>";
+            popup = new mapboxgl.Popup({anchor: "top", maxWidth:"none"})
+            .setLngLat({lng: longitude, lat: latitude})
+            .setHTML(result)
+            .addTo(map);
+          }
+          function handleTempToggleChange() {
+            let keyLabels = document.getElementsByClassName('map-key-label');
+            let toggleOption1 = document.getElementById('toggle-option1');
+            let toggleOption2 = document.getElementById('toggle-option2');
+            if(keyLabels[0]) {
+              if(currentTemp === "°F") keyLabels[0].textContent = 'Temperature (°C)';
+              else keyLabels[0].textContent = 'Temperature (°F)';
+            }
+            if (toggleOption1 && toggleOption2) { let temp = toggleOption1.className; toggleOption1.className = toggleOption2.className; toggleOption2.className = temp; }
+            let temperatureElements = document.getElementsByClassName('map-key-bin');
+            for (let i = 0; i < temperatureElements.length; i++) {
+              let temperatureString = temperatureElements[i].textContent.trim();
+              if (temperatureString.indexOf('--') !== -1) temperatureString = temperatureString.replace('--', ' -');
+              else { 
+                let standardDash = "-";
+                temperatureString = temperatureString.replace(/–/, standardDash);
+                let lastIndexOfDash = temperatureString.lastIndexOf(standardDash);
+                temperatureString = temperatureString.substring(0, lastIndexOfDash)+ ' ' + temperatureString.substring(lastIndexOfDash + 1); 
+              }
+              let temperatures = temperatureString.split(' ');
+              let temperature1 = parseInt(temperatures[0]);
+              let temperature2 = parseInt(temperatures[1]);
+              if(currentTemp === "°C") {
+                temperatureElements[i].innerHTML = temperatureElements[i].innerHTML.replace(temperature1, binLabelsInCAndF[1][i][0]);
+                temperatureElements[i].innerHTML = temperatureElements[i].innerHTML.replace(temperature2, binLabelsInCAndF[1][i][1]);
+              } else {
+                temperatureElements[i].innerHTML = temperatureElements[i].innerHTML.replace(temperature1, binLabelsInCAndF[0][i][0]);
+                temperatureElements[i].innerHTML = temperatureElements[i].innerHTML.replace(temperature2, binLabelsInCAndF[0][i][1]);
+              }
+            }
+            currentTemp = currentTemp === "°C" ? "°F" : "°C";
+            if(!showComparisonMaps) handleMapClick(map, dataKey);
+            else if(mapClicked === "before") handleMapClick(beforeMap, dataKeyBefore);
+            else handleMapClick(afterMap, dataKeyAfter);
+          };
+          let tempToggle = document.getElementById('toggle');
+          if (tempToggle) tempToggle.addEventListener('change', handleTempToggleChange);
+        })();
+      </script>
+    </body>
+  </html>
