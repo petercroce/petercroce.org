@@ -4,6 +4,7 @@
   --primary65: rgba(61, 61, 61, .65);
   --primary45: rgba(61, 61, 61, .45);
   --primary25: rgba(61, 61, 61, .25);
+  --primary15: rgba(61, 61, 61, .15);
   --background: #f7f7f7;
   --highlight: RGBA(189, 224, 252, 1);
 }
@@ -154,7 +155,13 @@ iframe {
   margin: 20px 0;
   border: none;
 }
-/* 
+code {
+  background: var(--primary15);
+  border-radius: 5px;
+  padding: 0px 3px;
+
+}
+/*
 .label.label-beta::before {
   content: "Now available for friends to try";
   position: absolute;
