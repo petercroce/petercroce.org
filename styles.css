@@ -22,6 +22,7 @@ body {
   color: var(--primary);
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 1.25rem;
+  font-weight: 300;
   line-height: 1.4;
   margin: 15px 15px 60px 15px;
   position: relative;
@@ -46,7 +47,6 @@ h3, h4 {
 }
 body li {
   margin-bottom: 0;
-  font-weight: 300;
 }
 ::selection {
   background-color: var(--highlight);
@@ -86,8 +86,12 @@ nav.breadcrumbs ul li:not(:last-child)::after {
 nav.breadcrumbs {
   text-align: center;
 }
-nav#primary-nav {
+nav.primary-navigation {
+  border: 1px solid var(--primary15);
+}
 
+body nav:last-of-type:not(:first-of-type) {
+  margin-top: 90px;
 }
 
 a, a:visited {
@@ -109,7 +113,7 @@ a.continue {
 
 }
 a.continue::after {
-  content: "  ↝";
+  content: "  →";
 }
 
 .writing-image {
