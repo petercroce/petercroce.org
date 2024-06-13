@@ -87,7 +87,7 @@ nav.breadcrumbs {
   text-align: center;
 }
 nav.primary-navigation {
-  border: 1px solid var(--primary15);
+  /* border: 1px solid var(--primary15); */
 }
 
 body nav:last-of-type:not(:first-of-type) {
