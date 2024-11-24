@@ -113,7 +113,7 @@ a.continue {
 
 }
 a.continue::after {
-  content: "  →";
+  content: "  ⇾";
 }
 
 .writing-image {
