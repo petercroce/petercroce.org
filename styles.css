@@ -118,8 +118,6 @@ a.continue::after {
 
 .writing-image {
   margin: 1.25em 0;
-}
-.writing-image img {
   width: 100%;
 }
 figcaption, time {
