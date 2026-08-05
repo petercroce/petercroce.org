@@ -4,6 +4,10 @@
   --background-color: #f7f7f7;
   --highlight: #FFFFB4;
 }
+figcaption, time {
+  font-size: 1rem;
+  font-weight: 300;
+}
 
 #canvas {
   display: flex;
@@ -74,6 +78,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+}
+#annual-emissions::after {
+  content: " ";
+  background-color: transparent;
+
+  height: 73.12px;
+  width: 73.15px;
+  border-radius: 500px;
+  border: 1px solid var(--primary);
+  position: absolute;
+  z-index: -1;
 }
 
 #removal-goal {
