@@ -31,7 +31,7 @@
     <h1>Carbon math</h1>
     <time datetime="2020-4-7">April 7, 2020</time>
 
-    <p>These circles represent the amount of carbon dioxide in the atmosphere that is above the safe level for life on Earth (carbon debt), the amount that is added every year at current emissions levels (annual emissions), and the IPCC estimate of annual carbon removal required by 2050 to keep global warming under 1.5°C above the stable pre-industrial global average temperature, assuming dramatic, near total emissions cuts also occur by 2050 (hypothetical removal).</p>
+    <p>These circles represent the amount of carbon dioxide in the atmosphere that is above the safe level for life on Earth ("carbon debt"), the amount that is added every year at current emissions levels ("annual emissions"), and the IPCC estimate of annual carbon removal required by 2050 to keep global warming under 1.5°C above the stable pre-industrial global average temperature, assuming dramatic, near total emissions cuts also occur by 2050 ("hypothetical removal").</p>
   </div>
   <div id="canvas">
 
@@ -39,8 +39,8 @@
       <div id="current-atmosphere-wrap" class="diagram-wrap">
         <div class="label">
           <h3>Carbon debt</h3>
-          <p>Current atmospheric carbon dioxide debt is about 945 Gt.</p>
-          <p>Put another way, there are currently at least 945 billion tons more of carbon dioxide in the atmosphere than is safe for life on Earth. This is current ppm minus safe ppm, assuming 350 ppm is safe.</p>
+          <p>Research has shown 350ppm (~1°C) is likely to be a safe and stable level of warming. We are currently above this safe level, at about 413ppm.</p>
+          <p>Put another way, there are currently at least 945 billion tons more of carbon dioxide in the atmosphere than is safe for life on Earth. Nearly a trillion tons of carbon dioxide would need to be removed from the atmosphere to get back to a safe and stable level of warming.</p>
           <p class="source">
             Sources: <a href="https://www.giss.nasa.gov/research/briefs/hansen_13/" class="source-link" target="_blank" rel="noopener noreferrer">James Hansen</a>, <a href="https://climate.nasa.gov/vital-signs/carbon-dioxide/" class="source-link" target="_blank" rel="noopener noreferrer">NASA</a>.
           </p>
@@ -74,7 +74,7 @@
       </div>
       <div class="diagram-wrap">
         <div class="label">
-          <p>Annual removal on this scale is historically unprecedented. If we accomplish it, <em>and</em> <strong>dramatically</strong> slash emissions to near zero by 2050, we can expect to limit global warming to under 1.5°C over the long term.</p>
+          <p>Annual removal on this scale is historically unprecedented. If we accomplish it, <em>and</em> <strong>dramatically</strong> slash emissions to near zero by 2050, the IPCC expects we can limit global warming to under 1.5°C over the long term.</p>
           <p class="source">
             Source: <a href="https://www.ipcc.ch/site/assets/uploads/sites/2/2019/02/SR15_Chapter2_Low_Res.pdf" class="source-link" target="_blank" rel="noopener noreferrer">IPCC</a>.
           </p>
@@ -84,10 +84,12 @@
     </div>
 
     <div class="section reading-section">
-      <h3>Why, what, how</h3>
-      <p>I made this because I wanted to understand how ppm, annual emissions, and carbon removal aspirations, and warming level goals are related.</p> 
-      <p>I wanted a rough sense of how much more CO<sub>2</sub> is in the atmosphere than should be there, the rate at which we're adding more, and the size of the goal for removing it — and the relative scale between all three. <strong>Ultimately, I wanted to know: How realistic are goals to stay under 1.5°C or 2°C of warming?</strong></p>
-      <p>Warming scenarios of 1.5°C or 2°C are widely accepted to be the uppermost limit of warming our planet can tolerate without becoming dramatically more unstable, such as due to tipping points, volatile weather, and societal instability.</p>
+      <h3>Why make this?</h3>
+      <p>I made this because there were no signs global emissions were slowing and I got interested enough in carbon removal to host a monthly lecture series called Carbon Removal NYC. Scientists working on novel carbon removal technologies and enhanced biological techniques spoke to a public climate-curious audience about their work. The approaches they described were exciting and made me feel hopeful. This led me to wonder: What is the potential impact of carbon removal on warming? How much hope should we give it?</p>
+      <p>I wanted to understand how ppm, annual emissions, carbon removal aspirations, and warming level goals are related. How much more CO<sub>2</sub> is in the atmosphere than should be there? At what rate are we adding more? How much do people hope to remove? And what is the relative scale between all three of these? <strong>Ultimately, I wanted to know: How realistic are goals to stay under 1.5°C or 2°C of warming, and can carbon removal play a meaningful part in achieving these goals?</strong></p>
+      <p>This "carbon math" exercise led me to conclude: not realistic, and no.</p>
+      <h3>Methodology</h3>
+      <!-- <p>Warming scenarios of 1.5°C or 2°C are widely accepted to be the uppermost limit of warming our planet can tolerate without becoming dramatically more unstable, such as due to tipping points, volatile weather, and societal instability.</p> -->
       <p>The <a href="https://docs.google.com/spreadsheets/d/1NbgwaXTA_9cYyOPNfspk3BkWfvXBZ7WDePn5ixggzWc/edit#gid=0" target="_blank" rel="noopener noreferrer">math for the circles</a> is based on the sources below and a back-of-envelop formula for converting gigatonnes (Gt) of CO<sub>2</sub> emissions into the atmosphere to ppm: 1 ppm ≈ 15Gt CO<sub>2</sub> emissions (7.5Gt CO<sub>2</sub> remains in the air; 7.5Gt CO<sub>2</sub> absorbed by the ocean and biosphere). The formula is described by <a href="https://usea.org/sites/default/files/event-/USEA-1.pdf" class="source-link" target="_blank" rel="noopener noreferrer">Klaus Lackner (on slide 7)</a>. Please note that this formula assumes the ocean and biosphere continue to absorb carbon dioxide at the same rate, which is likely not to be the case at higher levels of warming. I would welcome advice and corrections and additional sources.</p>
       <p>The circles are simple pixel math. After the ppm and CO<sub>2</sub> calculations, I took the square root of the results to calculate a diameter for the circles and used CSS to represent them in relative terms to each other, with pixels as the unit.</p>
 
